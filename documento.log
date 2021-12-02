@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.1)  2 DEC 2021 11:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.1)  2 DEC 2021 11:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -736,9 +736,9 @@ pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.60
 m1728.600pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ec
 rm1440.600pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/e
 crm2488.600pk>
-Output written on documento.pdf (13 pages, 91807 bytes).
+Output written on documento.pdf (13 pages, 92169 bytes).
 PDF statistics:
- 426 PDF objects out of 1000 (max. 8388607)
+ 427 PDF objects out of 1000 (max. 8388607)
  159 compressed objects within 2 object streams
  27 named destinations out of 1000 (max. 500000)
  70 words of extra memory for PDF output out of 10000 (max. 10000000)
