@@ -11,8 +11,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.2}Referências bibliográficas}{2}{subsection.2.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Resultados}{3}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Realidade Aumentada- definição}{3}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Análise}{4}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Análise}{5}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusões}{5}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Conclusões}{6}{chapter.5}%
