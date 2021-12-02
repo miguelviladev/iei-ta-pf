@@ -1,17 +1,17 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'documento.blg'
-[82] biber:340> INFO - === qui dez  2, 2021, 11:17:32
-[99] Biber.pm:415> INFO - Reading 'documento.bcf'
-[184] Biber.pm:952> INFO - Found 1 citekeys in bib section 0
-[201] Biber.pm:4340> INFO - Processing section 0
-[214] Biber.pm:4531> INFO - Looking for bibtex format file 'bibliografia.bib' for section 0
-[215] bibtex.pm:1689> INFO - LaTeX decoding ...
-[218] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliografia.bib'
-[250] Utils.pm:384> WARN - legacy month field 'oct' in entry 'glisc' is not an integer - this will probably not sort properly.
-[260] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'variable = shifted' with 'variable = non-ignorable'
-[260] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[260] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'pt-PT'
-[260] Biber.pm:4174> INFO - No sort tailoring available for locale 'pt-PT'
-[262] bbl.pm:654> INFO - Writing 'documento.bbl' with encoding 'UTF-8'
-[263] bbl.pm:757> INFO - Output to documento.bbl
-[263] Biber.pm:128> INFO - WARNINGS: 1
+[65] biber:340> INFO - === Thu Dec  2, 2021, 11:34:28
+[77] Biber.pm:415> INFO - Reading 'documento.bcf'
+[137] Biber.pm:952> INFO - Found 1 citekeys in bib section 0
+[151] Biber.pm:4340> INFO - Processing section 0
+[161] Biber.pm:4531> INFO - Looking for bibtex format file 'bibliografia.bib' for section 0
+[162] bibtex.pm:1689> INFO - LaTeX decoding ...
+[165] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliografia.bib'
+[192] Utils.pm:384> WARN - legacy month field 'oct' in entry 'glisc' is not an integer - this will probably not sort properly.
+[201] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[201] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[201] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'pt-PT'
+[202] Biber.pm:4174> INFO - No sort tailoring available for locale 'pt-PT'
+[203] bbl.pm:654> INFO - Writing 'documento.bbl' with encoding 'UTF-8'
+[204] bbl.pm:757> INFO - Output to documento.bbl
+[204] Biber.pm:128> INFO - WARNINGS: 1
