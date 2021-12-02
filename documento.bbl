@@ -1,0 +1,46 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{glisc}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c2fab43de5ddeb97a509859e15b7f88d}{%
+           family={{Grey Literature International Steering Committee}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{c2fab43de5ddeb97a509859e15b7f88d}
+      \strng{fullhash}{c2fab43de5ddeb97a509859e15b7f88d}
+      \strng{bibnamehash}{c2fab43de5ddeb97a509859e15b7f88d}
+      \strng{authorbibnamehash}{c2fab43de5ddeb97a509859e15b7f88d}
+      \strng{authornamehash}{c2fab43de5ddeb97a509859e15b7f88d}
+      \strng{authorfullhash}{c2fab43de5ddeb97a509859e15b7f88d}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{note}{[Online; acedido em Outubro 2014]}
+      \field{title}{{GLISC}}
+      \field{year}{2014}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
