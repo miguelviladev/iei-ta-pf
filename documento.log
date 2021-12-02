@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.11.5)  2 DEC 2021 12:29
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.1)  2 DEC 2021 12:25
->>>>>>> 043fdc685be01db21cd37626c52f1e91e47ee125
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.1)  2 DEC 2021 13:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -662,38 +658,28 @@ l.98 \clearpage
 
 ]
 Cap\'{\i }tulo 1.
+Package acronym Info: Label `acro:ra' newly defined as it shall be overridden
+although it is yet undefined on input line 107.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.115 \chapter
+l.121 \chapter
               {Metodologia} [1
 
 
 ]
 Cap\'{\i }tulo 2.
 Package acronym Info: Label `acro:ua' newly defined as it shall be overridden
-although it is yet undefined on input line 126.
-Package acronym Info: Label `acro:miect' newly defined as it shall be overridde
-n
-although it is yet undefined on input line 129.
-
-Package acronym Warning: Acronym `miect' is not defined on input line 129.
-
-
-Package acronym Warning: Acronym `miect' is not defined on input line 129.
-
-
-Package acronym Warning: Acronym `miect' is not defined on input line 130.
-
+although it is yet undefined on input line 132.
 Package acronym Info: Label `acro:glisc' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 134.
+although it is yet undefined on input line 137.
 
-Package acronym Warning: Acronym `glisc' is not defined on input line 134.
+Package acronym Warning: Acronym `glisc' is not defined on input line 137.
 
 
-Package acronym Warning: Acronym `glisc' is not defined on input line 134.
+Package acronym Warning: Acronym `glisc' is not defined on input line 137.
 
 [2
 
@@ -723,33 +709,10 @@ Package logreq Info: Writing requests to 'documento.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 14745 strings out of 481191
- 256964 string characters out of 5914092
- 1003757 words of memory out of 5000000
- 31473 multiletter control sequences out of 15000+600000
- 416106 words of font info for 49 fonts, out of 8000000 for 9000
- 38 hyphenation exceptions out of 8191
- 71i,6n,74p,1051b,1655s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/diogosilva/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti100
-0.600pk> </home/diogosilva/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-cbx1200.600pk> </home/diogosilva/.texlive2020/texmf-var/fonts/pk/ljfour/jknappe
-n/ec/ecbx1440.600pk> </home/diogosilva/.texlive2020/texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecrm0700.600pk> </home/diogosilva/.texlive2020/texmf-var/fonts/pk/lj
-four/jknappen/ec/ecbx2074.600pk> </home/diogosilva/.texlive2020/texmf-var/fonts
-/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/diogosilva/.texlive2020/texmf-var
-/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/diogosilva/.texlive2020/tex
-mf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </home/diogosilva/.texlive20
-20/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/diogosilva/.tex
-live2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk> </home/diogosilv
-a/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/dio
-gosilva/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2488.600pk>
-Output written on documento.pdf (13 pages, 93389 bytes).
-=======
- 14754 strings out of 481191
- 257222 string characters out of 5914092
- 1002929 words of memory out of 5000000
- 31479 multiletter control sequences out of 15000+600000
+ 14757 strings out of 481191
+ 257225 string characters out of 5914092
+ 1004977 words of memory out of 5000000
+ 31481 multiletter control sequences out of 15000+600000
  416106 words of font info for 49 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
  71i,6n,74p,1051b,1653s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -766,11 +729,10 @@ pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.60
 m1728.600pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ec
 rm1440.600pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/e
 crm2488.600pk>
-Output written on documento.pdf (13 pages, 93427 bytes).
->>>>>>> 043fdc685be01db21cd37626c52f1e91e47ee125
+Output written on documento.pdf (13 pages, 94512 bytes).
 PDF statistics:
- 430 PDF objects out of 1000 (max. 8388607)
- 159 compressed objects within 2 object streams
- 27 named destinations out of 1000 (max. 500000)
+ 437 PDF objects out of 1000 (max. 8388607)
+ 165 compressed objects within 2 object streams
+ 28 named destinations out of 1000 (max. 500000)
  70 words of extra memory for PDF output out of 10000 (max. 10000000)
 
