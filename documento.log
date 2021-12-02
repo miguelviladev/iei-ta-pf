@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.11.5)  2 DEC 2021 13:25
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.1)  2 DEC 2021 13:17
+>>>>>>> 03592f2c344dc1e3d89a196c953aed978edd0c1b
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -658,17 +662,20 @@ l.98 \clearpage
 
 ]
 Cap\'{\i }tulo 1.
+Package acronym Info: Label `acro:ra' newly defined as it shall be overridden
+although it is yet undefined on input line 107.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.115 \chapter
+l.121 \chapter
               {Metodologia} [1
 
 
 ]
 Cap\'{\i }tulo 2.
 Package acronym Info: Label `acro:ua' newly defined as it shall be overridden
+<<<<<<< HEAD
 although it is yet undefined on input line 125.
 Package acronym Info: Label `acro:miect' newly defined as it shall be overridde
 n
@@ -690,6 +697,17 @@ Package acronym Warning: Acronym `glisc' is not defined on input line 133.
 
 
 Package acronym Warning: Acronym `glisc' is not defined on input line 133.
+=======
+although it is yet undefined on input line 132.
+Package acronym Info: Label `acro:glisc' newly defined as it shall be overridde
+n
+although it is yet undefined on input line 137.
+
+Package acronym Warning: Acronym `glisc' is not defined on input line 137.
+
+
+Package acronym Warning: Acronym `glisc' is not defined on input line 137.
+>>>>>>> 03592f2c344dc1e3d89a196c953aed978edd0c1b
 
 [2
 
@@ -725,6 +743,7 @@ Package logreq Info: Writing requests to 'documento.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  14786 strings out of 481191
  257559 string characters out of 5914092
  1008217 words of memory out of 5000000
@@ -751,5 +770,32 @@ PDF statistics:
  484 PDF objects out of 1000 (max. 8388607)
  184 compressed objects within 2 object streams
  34 named destinations out of 1000 (max. 500000)
+=======
+ 14757 strings out of 481191
+ 257225 string characters out of 5914092
+ 1004977 words of memory out of 5000000
+ 31481 multiletter control sequences out of 15000+600000
+ 416106 words of font info for 49 fonts, out of 8000000 for 9000
+ 38 hyphenation exceptions out of 8191
+ 71i,6n,74p,1051b,1653s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.600
+pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.60
+0pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.6
+00pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700.
+600pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074
+.600pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx100
+0.600pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm12
+00.600pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2
+488.600pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm
+1000.600pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecr
+m1728.600pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ec
+rm1440.600pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/e
+crm2488.600pk>
+Output written on documento.pdf (13 pages, 94512 bytes).
+PDF statistics:
+ 437 PDF objects out of 1000 (max. 8388607)
+ 165 compressed objects within 2 object streams
+ 28 named destinations out of 1000 (max. 500000)
+>>>>>>> 03592f2c344dc1e3d89a196c953aed978edd0c1b
  70 words of extra memory for PDF output out of 10000 (max. 10000000)
 
