@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.11.5)  4 DEC 2021 23:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.11.5)  5 DEC 2021 00:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -671,24 +671,24 @@ l.121 \chapter
 ]
 Cap\'{\i }tulo 2.
 Package acronym Info: Label `acro:ua' newly defined as it shall be overridden
-although it is yet undefined on input line 133.
+although it is yet undefined on input line 134.
 Package acronym Info: Label `acro:glisc' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 138.
+although it is yet undefined on input line 139.
 
-Package acronym Warning: Acronym `glisc' is not defined on input line 138.
+Package acronym Warning: Acronym `glisc' is not defined on input line 139.
 
 
-Package acronym Warning: Acronym `glisc' is not defined on input line 138.
+Package acronym Warning: Acronym `glisc' is not defined on input line 139.
 
 [2
 
 ]
 Cap\'{\i }tulo 3.
 Package acronym Info: Label `acro:ar' newly defined as it shall be overridden
-although it is yet undefined on input line 142.
-Package acronym Info: Label `acro:rv' newly defined as it shall be overridden
 although it is yet undefined on input line 143.
+Package acronym Info: Label `acro:rv' newly defined as it shall be overridden
+although it is yet undefined on input line 144.
 [3
 
 ] [4]
@@ -733,9 +733,9 @@ mf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </home/diogosilva/.texlive20
 live2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk> </home/diogosilv
 a/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/dio
 gosilva/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2488.600pk>
-Output written on documento.pdf (14 pages, 107058 bytes).
+Output written on documento.pdf (14 pages, 107553 bytes).
 PDF statistics:
- 487 PDF objects out of 1000 (max. 8388607)
+ 488 PDF objects out of 1000 (max. 8388607)
  183 compressed objects within 2 object streams
  33 named destinations out of 1000 (max. 500000)
  70 words of extra memory for PDF output out of 10000 (max. 10000000)
