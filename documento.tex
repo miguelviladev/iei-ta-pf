@@ -1,22 +1,18 @@
 \documentclass{report}
-\usepackage[T1]{fontenc} % Fontes T1
-\usepackage[utf8]{inputenc} % Input UTF8
-\usepackage[backend=biber, style=ieee]{biblatex} % para usar bibliografia
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[backend=biber, style=ieee]{biblatex}
 \usepackage{csquotes}
-\usepackage[portuguese]{babel} %Usar língua portuguesa
-\usepackage{blindtext} % Gerar texto automaticamente
+\usepackage[portuguese]{babel}
+\usepackage{blindtext}
 \usepackage[printonlyused]{acronym}
-\usepackage{hyperref} % para autoref
+\usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{indentfirst}
-
 \bibliography{bibliografia}
 
-
 \begin{document}
-%%
-% Definições
-%
+%%% DEFINIÇÕES GLOBAIS %%%
 \def\titulo{Realidade Aumentada}
 \def\data{Aveiro, dezembro 2021}
 \def\autores{Miguel Vila, Diogo Silva}
@@ -25,83 +21,62 @@
 \def\departamento{DETI}
 \def\empresa{UNIVERSIDADE DE AVEIRO}
 \def\logotipo{ua.pdf}
-%
-%%%%%% CAPA %%%%%%
-%
-\begin{titlepage}
 
+%%% ESTRUTURA CAPA %%%
+\begin{titlepage}
 \begin{center}
-%
 \vspace*{50mm}
-%
 {\Huge \titulo}\\ 
-%
 \vspace{10mm}
-%
 {\Large \empresa}\\
-%
 \vspace{10mm}
-%
 {\LARGE \autores}\\ 
-%
 \vspace{30mm}
-%
 \begin{figure}[h]
 \center
 \includegraphics{\logotipo}
 \end{figure}
-%
 \vspace{30mm}
 \end{center}
-%
 \begin{flushright}
 \versao
 \end{flushright}
 \end{titlepage}
 
-%%  Página de Título %%
+%%%  PÁGINA DE TÍTULO %%%
 \title{%
 {\Huge\textbf{\titulo}}\\
 {\Large \departamento\\ \empresa}
 }
-%
-\author{%
+\author{
     \autores \\
     \autorescontactos
 }
-%
 \date{\data}
-%
 \maketitle
-
 \pagenumbering{roman}
 
-%%%%%% RESUMO %%%%%%
+%%% RESUMO %%%
 \begin{abstract}
-Resumo de 200-300 palavras.
+!!!TODO!!! Resumo de 200-300 palavras.
 \end{abstract}
 
-%%%%%% Agradecimentos %%%%%%
-% Segundo glisc deveria aparecer após conclusão...
+%%% AGRADECIMENTOS %%%
 \renewcommand{\abstractname}{Agradecimentos}
 \begin{abstract}
-Eventuais agradecimentos.
+!!!TODO!!!
 \end{abstract}
-
 
 \tableofcontents
 % \listoftables     % descomentar se necessário
 % \listoffigures    % descomentar se necessário
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
 \pagenumbering{arabic}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% INTRODUÇÃO %%%%
 \chapter{Introdução}
 \label{chap.introducao}
-
 Desde os primórdios que o Homem procura ter controlo da sua realidade moldando-a e modificando-a de modo a que as suas necessidades sejam supridas. Pode-se tomar como exemplo o controlo do fogo: quando o Homem primitivo descobriu como gerar artificialmente e controlar o fogo teve a sua vida facilitada e abriu um leque de novas possibilidades que originaram uma grande revolução a todos os níveis.
 
 Passados alguns milhares de anos, o ser humano continua a tentar ter ainda mais controlo sobre a realidade de modo a que o impossível se torne possível. Como a \ac{ra} extende virtualmente aquilo que existe no mundo real, existe uma forte probabilidade de que, tal como o fogo, a \ac{ra} venha a revolucionar a forma como se vive e dar azo ao surgimento de novas possibilidades.
@@ -110,42 +85,40 @@ Apesar de ser uma tecnologia relativamente recente, esta tem tido uma considerá
 
 Além disso, empresas no mercado tecnológico como a Google, a Microsoft, e a Samsung apostam no desenvolvimento desta tecnologia que tem potencial para se tornar o “braço-direito” do utilizador no desenvolver da sua atividade profissional e, futuramente, no desenvolvimento da sua vida pessoal. Porém, atualmente apenas a Microsoft foi capaz de, com algum sucesso, viabilizar e introduzir estes dispositivos no ambiente industrial e corporativo.
 
-Este relatório, realizado no âmbito da disciplina de Introdução à Engenharia Informática, terá como principal objetivo dar a conhecer a nova realidade tecnológica dos dispositivos \emph{mixed reality}, dando especial atenção aos óculos holográficos de realidade aumentada HoloLens, desenvolvidos pela Microsoft. 
+\section{Objetivos}
+Este relatório, realizado no âmbito da unidade curricular de Introdução à Engenharia Informática, terá como principal objetivo dar a conhecer a nova realidade tecnológica dos dispositivos \textit{mixed reality} e a sua utilidade, focando nos óculos holográficos de realidade aumentada HoloLens desenvolvidos pela Microsoft. 
 
+\section{Organização e Estrutura}
+!!!TODO!!!
+%Este documento está dividido em quatro capítulos.
+%Depois desta introdução,
+%no \autoref{chap.metodologia} é apresentada a metodologia seguida,
+%no \autoref{chap.resultados} são apresentados os resultados obtidos,
+%sendo estes discutidos no \autoref{chap.analise}.
+%Finalmente, no \autoref{chap.conclusao} são apresentadas
+%as conclusões do trabalho.
 
-
-
-Este documento está dividido em quatro capítulos.
-Depois desta introdução,
-no \autoref{chap.metodologia} é apresentada a metodologia seguida,
-no \autoref{chap.resultados} são apresentados os resultados obtidos,
-sendo estes discutidos no \autoref{chap.analise}.
-Finalmente, no \autoref{chap.conclusao} são apresentadas
-as conclusões do trabalho.
-
+%%% METEDOLOGIA %%%
 \chapter{Metodologia}
 \label{chap.metodologia}
-
 Neste relatório utilizou-se uma metodologia baseada, maioritariamente, na pesquisa exploratória. Esta pesquisa qualitativa vai nos permitir entender melhor e aprofundar o nosso tema para que o consigamos abordar da maneira mais clara e completa. Além disso, também teremos bases na leituar de algumas revistas bem conceituadas na área da tecnologia e ciencia, tal como o estudo de algumas investigações na área, para que nos permitam entender melhor o tema do nosso trabalho.
-Estes métodos proporcionaram-nos horas de estudo e pesquisa que no fim, serviram para concluir o relatório na forma mais completa e correta possível.
 
+Estes métodos proporcionaram-nos horas de estudo e pesquisa que no fim, serviram para concluir o relatório na forma mais completa e correta possível.
 
 Neste esqueleto de relatório aproveitamos este capítulo para exemplificar
 como se usam alguns elementos de {\LaTeX}.
 
 \section{Exemplos}
-
 \subsection{Utilização de acrónimos}
-Esta é a primeira invocação do acrónimo \ac{ua}.
-E esta é a segunda: \ac{ua}.
+Esta é a primeira invocação do acrónimo \ac{ua}. E esta é a segunda: \ac{ua}.
 
 \subsection{Referências bibliográficas}
-Informação relativa à estrutura formal de um relatório pode ser obtida
-na página do \ac{glisc}\cite{glisc}.
+Informação relativa à estrutura formal de um relatório pode ser obtida na página do \ac{glisc}\cite{glisc}.
 
 \chapter{Realidade Aumentada- definição}
 \label{chap.resultados}
-Realidade Aumentada \ac{ra} ou \ac{ar} consiste na integração de elementos ou informações virtuais na visualização do mundo real através de uma câmera, com o uso de sensores de movimento como o giroscópio e o acelerômetro. O uso mais utilizado, e mais conhecido da realidade aumentada é o entretenimento, através dos filtros para fotos em aplicativos móveis de redes sociais, através de jogos como o Pokémon GO. A realidade aumentada é também utilizada de muitas formas nas áreas do ensino, design de produtos, ações de marketing, suporte em plantas industriais, entre outros. O uso de vídeos transmitidos ao vivo digitalmente processados e "ampliados" pela adição de gráficos criados pelo computador também podem ser considerados como um tipo de realidade aumentada. Um usuário da \ac{ra} pode utilizar uns óculos, ou câmeras acopladas a um dispositivo computacional, e através destes, poderá ver o mundo real bem como imagens geradas por computador projetadas no mundo. 
+Realidade Aumentada \ac{ra} ou \ac{ar} consiste na integração de elementos ou informações virtuais na visualização do mundo real através de uma câmera, com o uso de sensores de movimento como o giroscópio e o acelerômetro. O uso mais utilizado, e mais conhecido da realidade aumentada é o entretenimento, através dos filtros para fotos em aplicativos móveis de redes sociais, através de jogos como o Pokémon GO. A realidade aumentada é também utilizada de muitas formas nas áreas do ensino, design de produtos, ações de marketing, suporte em plantas industriais, entre outros. O uso de vídeos transmitidos ao vivo digitalmente processados e "ampliados" pela adição de gráficos criados pelo computador também podem ser considerados como um tipo de realidade aumentada. Um usuário da \ac{ra} pode utilizar uns óculos, ou câmeras acopladas a um dispositivo computacional, e através destes, poderá ver o mundo real bem como imagens geradas por computador projetadas no mundo.
+
 A \ac{ar} baseia-se numa experiência interativa entre um mundo real, onde objetos que pertencem ao mundo real podem ser alterados por informação perceptiva criada por computadores, podendo ser visual, auditiva, sensorial e olfativo. Pode ser construtiva (que acrescenta ao ambiente natural) ou destrutiva (que mascarpõe uma mascara sobreposta ao ambiente natural). A realidade aumentada altera o mundo real do usuário, enquanto a \ac{rv} substitui completamente o mundo real do expectador. A Realidade aumentada é relacionada a dois termos muito usados no meio tecnologico: a Realidade mista, e a Realidade mediada por computadores. 
 
 -Realidade Mista - a realidade mista é a tecnologia que une as características da realidade virtual com a realidade aumentada. Permite inserir objetos virtuais num mundo real e permite a interação do usuário com os mesmos, produzindo um novo ambiente ao qual os itens físicos e virtuais coexistem e interagem em tempo real. Um exemplo da realidade mista é o \textit{head-up display} que encontramos nos carros mais modernos.
@@ -156,21 +129,19 @@ Voltando a falar da \ac{ra}, é ela que permite trazer componentes do mundo digi
 
 \chapter{Análise}
 \label{chap.analise}
-Analisa os resultados.
+!!!TODO!!!
 
 \chapter{Conclusões}
 \label{chap.conclusao}
-Apresenta conclusões.
+!!!TODO!!!
 
 \chapter*{Contribuições dos autores}
+!!!TODO!!! 
 Ambos paricipamos ativamente e com empenho, procurando contribuir para a realização dum trabalho com boa apresentação e conteúdo.
 
-Resumir aqui o que cada autor fez no trabalho.
-Usar abreviaturas para identificar os autores,
-por exemplo AS para António Silva.
-No fim indicar a percentagem de contribuição de cada autor.
+Resumir aqui o que cada autor fez no trabalho. Usar abreviaturas para identificar os autores, por exemplo AS para António Silva. No fim indicar a percentagem de contribuição de cada autor.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% ACRÓNIMOS %%%
 \chapter*{Acrónimos}
 \begin{acronym}
 \acro{ua}[UA]{Universidade de Aveiro}
@@ -180,8 +151,7 @@ No fim indicar a percentagem de contribuição de cada autor.
 \acro{rv}[RV]{Realidade Virtual}
 \end{acronym}
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% BIBLIOGRAFIA %%%
 \printbibliography
 
 \end{document}

@@ -3,6 +3,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introdução}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Objetivos}{1}{section.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Organização e Estrutura}{2}{section.1.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Metodologia}{3}{chapter.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Exemplos}{3}{section.2.1}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.1)  5 DEC 2021 03:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.1)  5 DEC 2021 03:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -522,22 +522,22 @@ File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
 (./documento.aux)
 \openout1 = `documento.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 Package biblatex Info: Trying to load language 'portuguese'...
 Package biblatex Info: ... file 'portuguese.lbx' found.
 
@@ -569,9 +569,9 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'documento.bbl' found.
  (./documento.bbl)
-Package biblatex Info: Reference section=0 on input line 16.
-Package biblatex Info: Reference segment=0 on input line 16.
-Package hyperref Info: Link coloring OFF on input line 16.
+Package biblatex Info: Reference section=0 on input line 14.
+Package biblatex Info: Reference segment=0 on input line 14.
+Package hyperref Info: Link coloring OFF on input line 14.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -584,9 +584,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count421
 )
-LaTeX Info: Redefining \ref on input line 16.
-LaTeX Info: Redefining \pageref on input line 16.
-LaTeX Info: Redefining \nameref on input line 16.
+LaTeX Info: Redefining \ref on input line 14.
+LaTeX Info: Redefining \pageref on input line 14.
+LaTeX Info: Redefining \nameref on input line 14.
 
 (./documento.out) (./documento.out)
 \@outlinefile=\write4
@@ -615,36 +615,36 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-<ua.pdf, id=36, 52.195pt x 55.20625pt>
+<ua.pdf, id=44, 52.195pt x 55.20625pt>
 File: ua.pdf Graphic file (type pdf)
 <use ua.pdf>
-Package pdftex.def Info: ua.pdf  used on input line 51.
+Package pdftex.def Info: ua.pdf  used on input line 37.
 (pdftex.def)             Requested size: 52.19487pt x 55.2061pt.
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./ua.pdf>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 76.
+(Font)              <12> on input line 57.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 76.
+(Font)              <8> on input line 57.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 76.
+(Font)              <6> on input line 57.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.76 
-      [1] [1]pdfTeX warning (ext4): destination with the same identifier (name{
-page.i}) has been already used, duplicate ignored
+l.57 \pagenumbering
+                   {roman} [1] [1]pdfTeX warning (ext4): destination with the s
+ame identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.89 \end{abstract}
+l.68 \end{abstract}
                     [1] (./documento.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 8.
+(Font)              <7> on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 8.
+(Font)              <5> on input line 6.
 )
 \tf@toc=\write5
 \openout5 = `documento.toc'.
@@ -653,42 +653,42 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.98 \clearpage
+l.74 \clearpage
                 [1
 
 ]
 Cap\'{\i }tulo 1.
 Package acronym Info: Label `acro:ra' newly defined as it shall be overridden
-although it is yet undefined on input line 107.
+although it is yet undefined on input line 82.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.125 
-       [1
+l.90 
+      [1
 
 
 ] [2]
 Cap\'{\i }tulo 2.
 Package acronym Info: Label `acro:ua' newly defined as it shall be overridden
-although it is yet undefined on input line 139.
+although it is yet undefined on input line 113.
 Package acronym Info: Label `acro:glisc' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 144.
+although it is yet undefined on input line 116.
 
-Package acronym Warning: Acronym `glisc' is not defined on input line 144.
+Package acronym Warning: Acronym `glisc' is not defined on input line 116.
 
 
-Package acronym Warning: Acronym `glisc' is not defined on input line 144.
+Package acronym Warning: Acronym `glisc' is not defined on input line 116.
 
 [3
 
 ]
 Cap\'{\i }tulo 3.
 Package acronym Info: Label `acro:ar' newly defined as it shall be overridden
-although it is yet undefined on input line 148.
+although it is yet undefined on input line 120.
 Package acronym Info: Label `acro:rv' newly defined as it shall be overridden
-although it is yet undefined on input line 149.
+although it is yet undefined on input line 122.
 [4
 
 ] [5]
@@ -707,23 +707,23 @@ Cap\'{\i }tulo 5.
 
 ] (./documento.aux)
 Package rerunfilecheck Info: File `documento.out' has not changed.
-(rerunfilecheck)             Checksum: 431CB00F8483343B6E28897EED6B15A1;485.
+(rerunfilecheck)             Checksum: 2684B8582E8CE2D3E84A2B9BDA25BA8C;616.
 Package logreq Info: Writing requests to 'documento.run.xml'.
 \openout1 = `documento.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
  14780 strings out of 481191
- 257471 string characters out of 5914092
+ 257465 string characters out of 5914092
  1007143 words of memory out of 5000000
- 31498 multiletter control sequences out of 15000+600000
+ 31496 multiletter control sequences out of 15000+600000
  416106 words of font info for 49 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
  71i,6n,74p,1051b,1653s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600
-pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.60
-0pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700.6
-00pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.
+pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700.60
+0pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.6
+00pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.
 600pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074
 .600pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx100
 0.600pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm12
@@ -733,10 +733,10 @@ pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.60
 m1728.600pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ec
 rm1440.600pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/e
 crm2488.600pk>
-Output written on documento.pdf (15 pages, 109561 bytes).
+Output written on documento.pdf (15 pages, 114303 bytes).
 PDF statistics:
- 495 PDF objects out of 1000 (max. 8388607)
- 185 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 70 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 515 PDF objects out of 1000 (max. 8388607)
+ 191 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
