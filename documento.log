@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.11.5)  5 DEC 2021 00:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.1)  5 DEC 2021 03:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -664,46 +664,46 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.121 \chapter
-              {Metodologia} [1
+l.125 
+       [1
 
 
-]
+] [2]
 Cap\'{\i }tulo 2.
 Package acronym Info: Label `acro:ua' newly defined as it shall be overridden
-although it is yet undefined on input line 134.
+although it is yet undefined on input line 139.
 Package acronym Info: Label `acro:glisc' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 139.
+although it is yet undefined on input line 144.
 
-Package acronym Warning: Acronym `glisc' is not defined on input line 139.
+Package acronym Warning: Acronym `glisc' is not defined on input line 144.
 
 
-Package acronym Warning: Acronym `glisc' is not defined on input line 139.
+Package acronym Warning: Acronym `glisc' is not defined on input line 144.
 
-[2
+[3
 
 ]
 Cap\'{\i }tulo 3.
 Package acronym Info: Label `acro:ar' newly defined as it shall be overridden
-although it is yet undefined on input line 143.
+although it is yet undefined on input line 148.
 Package acronym Info: Label `acro:rv' newly defined as it shall be overridden
-although it is yet undefined on input line 144.
-[3
+although it is yet undefined on input line 149.
+[4
 
-] [4]
+] [5]
 Cap\'{\i }tulo 4.
-[5
+[6
 
 ]
 Cap\'{\i }tulo 5.
-[6
-
-] [7
+[7
 
 ] [8
 
 ] [9
+
+] [10
 
 ] (./documento.aux)
 Package rerunfilecheck Info: File `documento.out' has not changed.
@@ -713,30 +713,30 @@ Package logreq Info: Writing requests to 'documento.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 14779 strings out of 481191
- 257464 string characters out of 5914092
+ 14780 strings out of 481191
+ 257471 string characters out of 5914092
  1007143 words of memory out of 5000000
  31498 multiletter control sequences out of 15000+600000
  416106 words of font info for 49 fonts, out of 8000000 for 9000
  38 hyphenation exceptions out of 8191
  71i,6n,74p,1051b,1653s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/diogosilva/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti100
-0.600pk> </home/diogosilva/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-cbx1200.600pk> </home/diogosilva/.texlive2020/texmf-var/fonts/pk/ljfour/jknappe
-n/ec/ecbx1440.600pk> </home/diogosilva/.texlive2020/texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecrm0700.600pk> </home/diogosilva/.texlive2020/texmf-var/fonts/pk/lj
-four/jknappen/ec/ecbx2074.600pk> </home/diogosilva/.texlive2020/texmf-var/fonts
-/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/diogosilva/.texlive2020/texmf-var
-/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/diogosilva/.texlive2020/tex
-mf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600pk> </home/diogosilva/.texlive20
-20/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/diogosilva/.tex
-live2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk> </home/diogosilv
-a/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600pk> </home/dio
-gosilva/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm2488.600pk>
-Output written on documento.pdf (14 pages, 107553 bytes).
+ </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600
+pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.60
+0pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0700.6
+00pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.
+600pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074
+.600pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx100
+0.600pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm12
+00.600pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2
+488.600pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm
+1000.600pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecr
+m1728.600pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ec
+rm1440.600pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/e
+crm2488.600pk>
+Output written on documento.pdf (15 pages, 109561 bytes).
 PDF statistics:
- 488 PDF objects out of 1000 (max. 8388607)
- 183 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
+ 495 PDF objects out of 1000 (max. 8388607)
+ 185 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
  70 words of extra memory for PDF output out of 10000 (max. 10000000)
 
