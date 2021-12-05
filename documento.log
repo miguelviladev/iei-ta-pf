@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.1)  5 DEC 2021 05:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2021.12.1)  5 DEC 2021 13:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -671,9 +671,9 @@ l.90
 ] [2]
 Cap\'{\i }tulo 2.
 Package acronym Info: Label `acro:ar' newly defined as it shall be overridden
-although it is yet undefined on input line 103.
-Package acronym Info: Label `acro:rv' newly defined as it shall be overridden
 although it is yet undefined on input line 105.
+Package acronym Info: Label `acro:rv' newly defined as it shall be overridden
+although it is yet undefined on input line 107.
 [3
 
 ] [4]
@@ -692,7 +692,7 @@ Cap\'{\i }tulo 5.
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 168.
+LaTeX Warning: Empty bibliography on input line 170.
 
 [9
 
@@ -712,8 +712,8 @@ Here is how much of TeX's memory you used:
  38 hyphenation exceptions out of 8191
  71i,6n,74p,1051b,1653s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600
-pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.60
-0pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.6
+pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.60
+0pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.6
 00pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2074.
 600pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000
 .600pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm120
@@ -723,9 +723,9 @@ pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.60
 1728.600pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecr
 m1440.600pk> </home/maomv/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ec
 rm2488.600pk>
-Output written on documento.pdf (14 pages, 111926 bytes).
+Output written on documento.pdf (14 pages, 113116 bytes).
 PDF statistics:
- 525 PDF objects out of 1000 (max. 8388607)
+ 528 PDF objects out of 1000 (max. 8388607)
  212 compressed objects within 3 object streams
  37 named destinations out of 1000 (max. 500000)
  142 words of extra memory for PDF output out of 10000 (max. 10000000)

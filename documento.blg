@@ -1,9 +1,9 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'documento.blg'
-[65] biber:340> INFO - === Sun Dec  5, 2021, 05:22:35
-[76] Biber.pm:415> INFO - Reading 'documento.bcf'
-[134] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
-[139] Utils.pm:384> WARN - The file 'documento.bcf' does not contain any citations!
-[147] bbl.pm:654> INFO - Writing 'documento.bbl' with encoding 'UTF-8'
-[147] bbl.pm:757> INFO - Output to documento.bbl
-[147] Biber.pm:128> INFO - WARNINGS: 1
+[105] biber:340> INFO - === Sun Dec  5, 2021, 13:18:18
+[119] Biber.pm:415> INFO - Reading 'documento.bcf'
+[211] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[217] Utils.pm:384> WARN - The file 'documento.bcf' does not contain any citations!
+[229] bbl.pm:654> INFO - Writing 'documento.bbl' with encoding 'UTF-8'
+[230] bbl.pm:757> INFO - Output to documento.bbl
+[230] Biber.pm:128> INFO - WARNINGS: 1
