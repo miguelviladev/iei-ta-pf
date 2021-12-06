@@ -25,7 +25,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Panorama atual}{5}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Microsoft HoloLens 2}{6}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Microsoft \textit {HoloLens 2}}{6}{chapter.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}Proposta do produto}{6}{section.4.1}%
 \defcounter {refsection}{0}\relax 
