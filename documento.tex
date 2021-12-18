@@ -9,6 +9,7 @@
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{indentfirst}
+\usepackage{float}
 \bibliography{bibliografia}
 
 \begin{document}
@@ -112,18 +113,33 @@ A informação daí recolhida permitiu compreender, aprofundar e consolidar o te
 %%% REALIDADE AUMENTADA %%%
 \chapter{Realidade Aumentada}
 \label{chap.realidade-aumentada}
-Neste capítulo irão ser abordados temas como: o que realmente é a \ac{ra}, em que consiste e de que diferentes maneiras nos é apresentado no quotidiano. Mostraremos também a origem da mesma, demonstrando ser algo que levou alguns anos para se tornar no que é hoje e as diversas etapas que teve que atravessar. Por fim apresentamos algumas aplicações e alguns exemplos de aparelhos eletrónicos, que usufruem desta tecnologia no mundo.
+Neste capítulo irá se explicar em que consiste a \ac{ra}, diferenciando-a de tecnologias semelhantes como a \ac{rv} e apresenta-se as diferentes aplicações que a \ac{ra} já tem no quotidiano e que, por muitas vezes, passam despercebidas.
+
+Mostrar-se-á também a sua origem e as diversas etapas que teve que atravessar ao longo dos anos para se tornar na tecnologia que é hoje. Por fim, apresenta-se alguns exemplos de aplicações no mundo real e exemplos de dispositivos inteligentes que possuem esta tecnologia.
 
 \section{Conceito}
-Realidade Aumentada \ac{ra} ou \ac{ar} consiste na integração de elementos ou informações virtuais na visualização do mundo real através de uma camera, com o uso de sensores de movimento como o giroscópio e o acelerómetro. O uso mais utilizado, e mais conhecido da realidade aumentada é o entretenimento, através dos filtros para fotos em aplicativos móveis de redes sociais, através de jogos como o Pokémon GO. A realidade aumentada é também utilizada de muitas formas nas áreas do ensino, design de produtos, ações de marketing, suporte em plantas industriais, entre outros. O uso de vídeos transmitidos ao vivo digitalmente processados e "ampliados" pela adição de gráficos criados pelo computador também podem ser considerados como um tipo de realidade aumentada. Um usuário da \ac{ra} pode utilizar uns óculos, ou câmeras acopladas a um dispositivo computacional, e através destes, poderá ver o mundo real bem como imagens geradas por computador projetadas no mundo.
+A \ac{ra} consiste na integração e interligação de elementos ou informações virtuais na visualização do mundo real. É através de dispositivos de entrada como sensores óticos (câmera) e sensores de movimento (giroscópio e acelerómetro) e dispositivos de saída como um écran (convencional ou holográfico) que é feita essa integração do virtual com mundo palpável.
 
-A \ac{ar} baseia-se numa experiência interativa entre um mundo real, onde objetos que pertencem ao mundo real podem ser alterados por informação perceptiva criada por computadores, podendo ser visual, auditiva, sensorial e olfativo. Pode ser construtiva (que acrescenta ao ambiente natural) ou destrutiva (que mascarpõe uma mascara sobreposta ao ambiente natural). A realidade aumentada altera o mundo real do usuário, enquanto a \ac{rv} substitui completamente o mundo real do expectador. A Realidade aumentada é relacionada a dois termos muito usados no meio tecnologico: a Realidade mista, e a Realidade mediada por computadores. 
+A \ac{ra} é comumente confundida com a \ac{rv} porque, a princípio, podem parecer tecnologias semelhantes, mas, na verdade, existem diversas diferenças entre elas.
 
--Realidade Mista - a realidade mista é a tecnologia que une as características da realidade virtual com a realidade aumentada. Permite inserir objetos virtuais num mundo real e permite a interação do usuário com os mesmos, produzindo um novo ambiente ao qual os itens físicos e virtuais coexistem e interagem em tempo real. Um exemplo da realidade mista é o \textit{head-up display} que encontramos nos carros mais modernos.
+Enquanto que a \ac{rv}, tal como o nome indica, pode ser caracterizada pela criação de um ambiente puramente virtual onde o utilizador tenta ter uma experiência imersiva, a \ac{ra} trata-se de uma tecnologia que, através de dispositivos especificos, permite que elementos virtuais interliguem-se e, até mesmo, interajam com a realidade.
 
--Realidade Mediada - a realidade mediada consiste na capacidade de adicionar ou subtrair informação da precepção da realidade através da Utilização de um \textit{wearable computer} ou mesmo de um \textit{smartphone}, basta um dispositivo que permita criar um filtro visual entre o mundo real e aquilo que o utilizador capta, criando um cenário novo ao utiliador.
+Por outras palavras, a \ac{ra} baseia-se numa experiência interativa entre o mundo real e o virtual, onde objetos que pertencem ao plano real podem ser "aumentados" e manipulados no plano virtual e onde objetos pertencentes ao plano virtual podem interagir e moldar-se ao mundo físico.
 
-Voltando a falar da \ac{ra}, é ela que permite trazer componentes do mundo digital para dentro da percepção da pessoa do mundo real, e não o faz apenas dispondo as informações visualmente, mas também através da integração de sensações imersivas que são interpretadas como sendo algo pertencente a um ambiente.
+A \ac{ra} é uma tecnologia abrangente e cheia de possibilidades, por isso, ainda pode ser subdividida em duas outras: a Realidade Mediada e a \ac{rm}. Estas são semelhantes no que toca àquilo que pretendem alcançar, porém usam diferentes técnicas para o fazer:
+\begin{itemize}
+    \item Na Realidade Mediada, uma câmera capta o ambiente que envolve o utilizador, as imagens obtidas são processadas inserindo os elementos virtuais e, por fim, a imagem é mostrada num écran.
+    \item Na \ac{rm}, uns sensores óticos e posicionais mapeiam o ambiente ao redor do utilizador, as posições em que os objetos virtuais aparecerão são processadas e, por fim, os objetos são projetados numa lente transparente dando a noção de profundidade, culminando, assim, numa experiência ainda mais real e imersiva para o utilizador.
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{spectre.png}
+    \caption{Espetro de proximidade ao real ou virtual.}
+    \label{Fig:DesktopSpotify}
+\end{figure}
+
+Conclui-se então que a \ac{ra} está mais próxima do real do que a \ac{rv} já que esta cria um ambiente totalmente virtual praticamente dissociado do mundo palpável. Conclui-se também que entre a Realidade Mediada e a \ac{rm} esta é aquela que confere um maior grau de imersividade ao utilizador.
 
 \section{Origem}
 A primeira referência ao conceito de Realidade Aumentada remonta ao ano de 1962 quando Morton Heilig construiu uma máquina com tecnologia multisensorial imersiva que denominou de Sensorama.
@@ -147,6 +163,8 @@ Na Arquitetura - Na arquitetura, contar com os recursos da realidade aumentada p
 
 Na Indústria - Com tendência forte no mercado, a indústria já representa uma forma de atuar totalmente tecnológica e inovadora, visto que tem como base sistemas que conectam toda a sua linha de produção e viabilizam a coleta de informações em tempo real. O que a realidade aumentada vem a acrescentar a esse contexto é a simulação de um processo em 3D ainda na fase de testes, ou seja, antes de colocá-lo em prática definitivamente. Outras perspectivas das aplicações de realidade aumentada na indústria são os tutoriais interativos para os setores de inspeção e manutenção. Assim, os funcionários podem contar com uma ajuda interativa sobre o passo a passo para executar o trabalho necessário em cada máquina.
 
+O uso mais utilizado, e mais conhecido da realidade aumentada é o entretenimento, através dos filtros para fotos em aplicativos móveis de redes sociais, através de jogos como o Pokémon GO. A realidade aumentada é também utilizada de muitas formas nas áreas do ensino, design de produtos, ações de marketing, suporte em plantas industriais, entre outros. O uso de vídeos transmitidos ao vivo digitalmente processados e "ampliados" pela adição de gráficos criados pelo computador também podem ser considerados como um tipo de realidade aumentada. Um usuário da \ac{ra} pode utilizar uns óculos, ou câmeras acopladas a um dispositivo computacional, e através destes, poderá ver o mundo real bem como imagens geradas por computador projetadas no mundo.
+
 \subsection{Exemplos}
 O nosso telemóvel, com a grande qualidade das câmaras que o integram, a precisão dos sensores (giroscópio e magnetómetro) e, também, com o crescente poder de processamento, tornou-se no equipamento ideal e mais conveniente para fazer uso da realidade aumentada.
 
@@ -163,7 +181,7 @@ Esta “mesclagem” da realidade com o virtual será visualizada pelo utilizado
 \section{Conceito}
 O conceito de óculos holográficos surgiu exatamente com a criação do conceito de realidade aumentada por Thomas Caudell.
 
-O objetivo dos avanços tecnologicos é fazer com que estes óculos, no futuro, se pareçam bastante com óculos comuns, mas que, nas suas lentes seja apresentada uma
+O objetivo dos avanços tecnológicos é fazer com que estes óculos, no futuro, se pareçam bastante com óculos comuns, mas que, nas suas lentes seja apresentada uma
 imagem holográfica que se funda com o ambiente real.
 
 \section{Panorama atual}
@@ -205,7 +223,7 @@ Para pessoas comuns, este produto poderá ter pouca ou nenhuma utilidade, mas, p
 Neste trabalho desenvolvemos e explicamos o conceito de \ac{ra} através da comparação desta tecnologia com a \ac{rv}, da explicação da sua origem e as eventuais utilizações que esta tem e terá no nosso mundo. Apresentamos um dos dispositivos de \ac{ra} mais promissores na atualidade (Óculos Holográficos) exemplificando diversas utilidades práticas que estes têm. Por fim analisamos e demonstramos o produto atual de \ac{ra} que consideramos ser o mais revolucionário, os “Microsoft \textit{HoloLens 2}”. Este foi um trabalho que nos permitiu descobrir e desvendar o atual paradigma desta tecnologia e da qual nos consideramos fãs. Foi possível ainda perceber as limitações da \ac{rv} em relação ao mundo real e concluir que o futuro apresenta-se muito mais promissor para a \ac{ra}. Acreditamos que com a aposta de grandes empresas como a Google e a Microsoft na \ac{ra}, em um curto espaço de tempo, a maioria das atividades comerciais irão fazer uso desta tecnologia. Dado isto não será improvável o surgimento de novas empresas e novos produtos que irão concorrer frente a frente com os que já existem atualmente, permitindo um desenvolvimento ainda maior desta tecnologia fazendo ainda com que num futuro próximo, a utilização desta tecnologia possa vir a ser utilizada no quotidiano de pessoas comuns e não apenas no ambiente corporativo.
 
 \chapter*{Contribuições dos autores}
-!!!TODO!!! Ambos paricipamos ativamente e com empenho, procurando contribuir para a realização dum trabalho com boa apresentação e conteúdo.
+!!!TODO!!! Ambos participámos ativamente e com empenho, procurando contribuir para a realização dum trabalho com boa apresentação e conteúdo.
 
 Resumir aqui o que cada autor fez no trabalho. Usar abreviaturas para identificar os autores, por exemplo AS para António Silva. No fim indicar a percentagem de contribuição de cada autor.
 
@@ -215,8 +233,8 @@ Resumir aqui o que cada autor fez no trabalho. Usar abreviaturas para identifica
 \acro{ua}[UA]{Universidade de Aveiro}
 \acro{leci}[LECI]{Licenciatura em Engenharia de Computadores e Informática}
 \acro{ra}[RA]{Realidade Aumentada}
-\acro{ar}[AR]{Augmented Reality}
 \acro{rv}[RV]{Realidade Virtual}
+\acro{rm}[RM]{Realidade Mista}
 \acro{hmd}[HMD]{\textit{head mouted display}}
 \end{acronym}
 
