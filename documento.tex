@@ -10,7 +10,10 @@
 \usepackage{graphicx}
 \usepackage{indentfirst}
 \usepackage{float}
+\usepackage{subcaption}
+
 \bibliography{bibliografia}
+\setlength{\parskip}{0.5em}
 
 \begin{document}
 %%% DEFINIÇÕES GLOBAIS %%%
@@ -65,12 +68,12 @@
 %%% AGRADECIMENTOS %%%
 \renewcommand{\abstractname}{Agradecimentos}
 \begin{abstract}
-!!!TUDO!!!
+!!!TODO!!!
 \end{abstract}
 
 \tableofcontents
-% \listoftables
-% \listoffigures
+\listoftables
+\listoffigures
 
 \clearpage
 \pagenumbering{arabic}
@@ -78,6 +81,15 @@
 %%% INTRODUÇÃO %%%%
 \chapter{Introdução}
 \label{chap.introducao}
+
+
+\begin{quote}
+    ``\emph{A display connected to a digital computer gives us a chance to gain familiarity with concepts not realizable in the physical world. It is a looking glass into a mathematical wonderland.}''\cite{Sutherland65theultimate}
+\end{quote}
+\begin{flushright}
+Ivan E. Sutherland
+\end{flushright}
+
 Desde os primórdios que o Homem procura ter controlo da sua realidade moldando-a e modificando-a de modo a que as suas necessidades sejam supridas. Pode-se tomar como exemplo o controlo do fogo: quando o Homem primitivo descobriu como gerar artificialmente e controlar o fogo teve a sua vida facilitada e abriu um leque de novas possibilidades que originaram uma grande revolução a todos os níveis.
 
 Passados alguns milhares de anos, o ser humano continua a tentar ter ainda mais controlo sobre a realidade de modo a que o impossível se torne possível. Como a \ac{ra} estende virtualmente aquilo que existe no mundo real, existe uma forte probabilidade de que, tal como o fogo, a \ac{ra} venha a revolucionar a forma como se vive e dar azo ao surgimento de novas possibilidades.
@@ -138,19 +150,39 @@ A \ac{ra} é uma tecnologia abrangente e cheia de possibilidades, por isso, aind
     \centering
     \includegraphics[width=\textwidth]{spectre.png}
     \caption{Espetro de proximidade ao real ou virtual.}
-    \label{Fig:DesktopSpotify}
+    \label{Fig:spectre}
 \end{figure}
 
 Conclui-se então que a \ac{ra} está mais próxima do real do que a \ac{rv} já que esta cria um ambiente totalmente virtual praticamente dissociado do mundo palpável. Conclui-se também que entre a Realidade Mediada e a \ac{rm} esta é aquela que confere um maior grau de imersividade ao utilizador.
 
 \section{Origem}
-A primeira referência ao conceito de Realidade Aumentada remonta ao ano de 1962 quando Morton Heilig construiu uma máquina com tecnologia multisensorial imersiva que denominou de Sensorama.
+A primeira referência histórica a algo que se assemelha vagamente ao conceito de \ac{ra} data de 1962, quando Morton Heilig inventou uma máquina chamada Sensorama. Esta máquina imersiva era capaz de exibir imagens tridimensionais, reproduzir som estéreo, transmitir sensações táteis como vibrações e, ainda, transmitir sensações olfativas.\cite{sousa_ccg_2018}
 
-Esta máquina oferecia uma experiência de \ac{ra} multisensorial imersiva já que era capaz de exibir imagens em 3D, som estéreo, sensações hápticas através da inclinação do corpo, sensações de vento e aromas.
+\begin{figure}
+    \centering
+    \begin{subfigure}{.5\textwidth}
+      \centering
+      \includegraphics[height=17em]{sensorama.png}
+      \label{Fig:sub1}
+    \end{subfigure}%
+    \begin{subfigure}{.5\textwidth}
+      \centering
+      \includegraphics[height=17em]{sensorama1.jpg}
+      \label{Fig:sub2}
+    \end{subfigure}
+    \caption{Simulador Sensorama}
+    \label{Fig:sensorama}
+\end{figure}
 
-Em 1968, Ivan Sutherland desenvolveu o primeiro \ac{hmd} a que chamou \textit{The Sword of Damocles}, que é um dispositivo usado na cabeça, parte integrante de um capacete, que possui um display óptico em frente de um (\ac{hmd} Monocular) ou de cada olho (\ac{hmd} Binocular).
+Este foi o primeiro dispositivo de \ac{rv} que, mesmo não tendo tido financiamento nem apoio na sua época, foi revolucionário e certamente teve impacto no surgimento da \ac{ra} e desenvolvimento da \ac{rv} anos mais tarde.
 
-Apesar do conceito já existir há imenso tempo, o termo Realidade Aumentada só foi criado em 1992 pelo investigador Tom Caudell da Boeing. Ele e o seu colega David Mizell tiveram o desafio de fornecer uma alternativa aos diagramas e dispositivos de marcação usados para guiar os trabalhadores no chão de fábrica da empresa. A solução que desenvolveram foi um \ac{hmd} que poderia ser usados pelos trabalhadores e exibia os diagramas e esquemas dos aviões e os projetava em placas reutilizáveis, sendo que a informação a visualizar poderia ser alterada através de computador.
+Já em 1968, Ivan Sutherland, um cientista da computação e também professor universitário, criou com os seus alunos o primeiro \ac{hmd} conectado a um computador que gerava gráficos rudimentares de salas e objetos.\cite{virtualrealitysociety_2020}
+
+Como qualquer outra nova tecnologia, a realidade aumentada surgiu para suprir uma necessidade e foi Thomas Caudell, um cientista e pesquisador da Boeing, que em 1992 utilizou pela primeira vez o termo "Realidade Aumentada".
+
+Numa altura em que a Boeing estava a produzir em massa um dos maiores e icónicos aviões de todos os tempos, o "Boeing 747", Thomas Caudell procurou aumentar a produtividade dos operários da empresa que, de cada vez que necessitavam de fazer uma operação técnica neste avião tinham consultar manuais extensos e de difícil compreensão.
+
+Assim, Thomas teve a ideia de criar um dispositivo, uma espécie de óculos, que auxiliasse os operários que, desta forma, teriam acesso fácil ao manuais e poderiam consultá-los de forma interativa enquanto faziam os procedimentos de manutenção no avião.
 
 \section{Aplicações}
 Ao contrário do que muitos podem imaginar, a realidade aumentada não se limita apenas ao contexto de empresas de tecnologia — as aplicações e softwares desenvolvidos têm utilidade nas mais variadas situações do nosso dia a dia.
@@ -167,6 +199,8 @@ Na Indústria - Com tendência forte no mercado, a indústria já representa uma
 
 O uso mais utilizado, e mais conhecido da realidade aumentada é o entretenimento, através dos filtros para fotos em aplicativos móveis de redes sociais, através de jogos como o Pokémon GO. A realidade aumentada é também utilizada de muitas formas nas áreas do ensino, design de produtos, ações de marketing, suporte em plantas industriais, entre outros. O uso de vídeos transmitidos ao vivo digitalmente processados e "ampliados" pela adição de gráficos criados pelo computador também podem ser considerados como um tipo de realidade aumentada. Um usuário da \ac{ra} pode utilizar uns óculos, ou câmeras acopladas a um dispositivo computacional, e através destes, poderá ver o mundo real bem como imagens geradas por computador projetadas no mundo.
 
+%In the near future we may enrich our perception of reality through revolutionary virtual augmentation. Augmented reality (AR) technologies offer an enhanced perception to help us see, hear, and feel our environments in new and enriched ways that will benefit us in fields such as education, maintenance, design, reconnaissance, to name but a few. 
+
 \subsection{Exemplos}
 O nosso telemóvel, com a grande qualidade das câmaras que o integram, a precisão dos sensores (giroscópio e magnetómetro) e, também, com o crescente poder de processamento, tornou-se no equipamento ideal e mais conveniente para fazer uso da realidade aumentada.
 
@@ -181,7 +215,7 @@ Esta “mesclagem” da realidade com o virtual será visualizada pelo utilizado
 %%% ÓCULOS HOLOGRÁFICOS %%%
 \chapter{Óculos Holográficos}
 \label{chap.oculos-holograficos}
-!!!TUDO!!!
+!!!TODO!!!
 
 \section{Conceito}
 O conceito de óculos holográficos surgiu exatamente com a criação do conceito de realidade aumentada por Thomas Caudell.
@@ -240,14 +274,10 @@ Resumir aqui o que cada autor fez no trabalho. Usar abreviaturas para identifica
 \acro{ra}[RA]{Realidade Aumentada}
 \acro{rv}[RV]{Realidade Virtual}
 \acro{rm}[RM]{Realidade Mista}
-\acro{hmd}[HMD]{\textit{head mouted display}}
+\acro{hmd}[HMD]{\textit{Head-Mounted-Display}}
 \end{acronym}
 
 %%% BIBLIOGRAFIA %%%
 \printbibliography
-
-https://ccg.pt/realidade-aumentada-aplicabilidade/
-
-https://blog.cronapp.io/realidade-aumentada-e-suas-aplicacoes/
 
 \end{document}
