@@ -22,8 +22,9 @@
 \def\titulo{Realidade Aumentada}
 \def\data{Aveiro, dezembro 2021}
 \def\autores{Miguel Vila, Diogo Silva}
-\def\autorescontactos{(107276) miguelovila@ua.pt, (108212) dsgps@ua.pt}
-\def\versao{VERSÃO 1}
+\def\autorescontactos{(107276) \href{mailto:miguelovila@ua.pt}{miguelovila@ua.pt}, (108212) \href{mailto:dsgps@ua.pt}{dsgps@ua.pt}}
+\def\projetocodeua{\url{http://code.ua.pt/projects/infor2021-ap-g16}}
+\def\versao{VERSAO 1}
 \def\departamento{DETI}
 \def\empresa{UNIVERSIDADE DE AVEIRO}
 \def\logotipo{ua.pdf}
@@ -56,29 +57,35 @@
 }
 \author{
     \autores \\
-    \autorescontactos
+    \autorescontactos \\\\
+    \projetocodeua
 }
 \date{\data}
 \maketitle
 \pagenumbering{roman}
 
-%%% RESUMO %%%
 \begin{abstract}
-Neste relatório, vamos vos dar a conhecer mais sobre alguns temas e tópicos relacionados à \ac{ra}, como: o impacto que a sua introdução à sociedade causou, a criação de novos termos para novas realidades tecnologicas e de que maneira podemos experiênciar esta tecnologia no nosso dia a dia.
 
-A necessidade da criação da \ac{ra} e da evolução deste termo ao longo dos anos mostra-nos a vontade do Homem conseguir inovar e moldar o mundo ao seu redor, conseguindo cada vez tirar mais proveito do mesmo. 
+A necessidade de moldar e controlar o mundo está, desde sempre, presente no ADN do ser humano. Na atualidade, o Homem continua a tentar ter cada vez mais contrlo sobre a realidade de modo a que o impossível se torne possível.
 
-E assim, com a evolução da \ac{ra}, ficamos a conhecer, além da sua utilidade, também o seu impacto e as limitações que esta ainda apresenta. Ainda ficamos a conhecer algumas outras novas tecnologias semelhantes, como a \ac{rv}, que mais a frente iremos abordar com mais detalhe e mostrar as diferenças entre as duas tecnologias.
+Dito isto, com o avanço tecnológico, parece lógico que o próximo passo da evolução seja a utilização da \ac{ra} para desbloquear um novo leque de possibilidades que venham a revolucionar o modo de vida atual.
 
-Na atualidade esta tecnologia tem como principal finalidade ajudar e facilitar o dia a dia de certos empregos, tornando-os mais eficientes e diminuindo o tempo dispensado para certa tarefa. No entanto, muita gente já teve contacto com a \ac{ra} através do seu smartphone, através de filtros de fotografias de certas aplicações. Mas para dar a conhecer alguma ferramenta mais específica, iremos abordar a mais recente tecnologia da Mirosoft, os \textit{HoloLens 2}. Este produto, nada mais é que uns Óculos Holográficos é o mais próximo que encontramos de ser a ferramenta ideal para o dia a dia do trabalhador, é funcional, prático e confortável para o uso intensivo durante horas.
+Neste relatório, realizado no âmbito da unidade curricular de \ac{iei}, decidimos dar a conhecer o estado atual de uma tecnologia de que nos consideramos fãs: a \ac{ra}.
 
-Por fim, neste trabalho iremos demonstrar que dificuldades esta tecnologia está a ultrapassar e mostrar as conclusões que tiramos após a nossa pesquisa e estudo sobre o tema.
+Explorar-se-ão os impactos benéficos que esta tecnologia, mesmo de forma pouco expressiva, já está a ter no mundo e as suas possíveis aplicações no futuro, focando nos óculos holográficos \textit{HoloLens 2} desenvolvidos pela \textit{Microsoft}.
+
+Numa primeira fase é feita a contextualização do trabalho, explicando o porquê da \ac{ra} ser um tema importante e de interesse. De seguida ir-se-á esclarecer o que é, como surgiu, explorar possíveis aplicações no futuro e exemplificar como esta tecnologia já está a ser utilizada no quotidiano.
+
+Numa segunda fase, é explicado o conceito por detrás dos óculos holográficos, fazendo um balanço do panorama atual desses dispositivos. De seguida, analisa-se em detalhe os óculos de realidade aumentada \textit{HoloLens 2} percebendo qual a sua utilidade, quais as suas principais características e a quem se destina.
+
+Por fim, serão apresentadas as principais conclusões do trabalho, prevendo de que forma esta tecnologia irá revolucionar e entrar nas vidas do cidadão comum.
 
 \end{abstract}
 
 %%% AGRADECIMENTOS %%%
 \renewcommand{\abstractname}{Agradecimentos}
 \begin{abstract}
+
 Para realizar este trabalho não se pôde dispensar da ajuda dos professores, que estiveram sempre disponiveis para ajudar com qualquer duvida e esclarecimento. Por isso, deixamos aqui o nosso agradecimento especial aos professores da discilpina de \ac{iei}: o professor António Manuel Adrego da Rocha e o professor Óscar Pereira.
 
 Sem a sua orientação não conseguiriamos ter elaborado o trabalho colaborativo utilizando todos as ferramentas da maneira mais eficiente.
@@ -86,6 +93,7 @@ Sem a sua orientação não conseguiriamos ter elaborado o trabalho colaborativo
 
 \tableofcontents
 \listoffigures
+\listoftables
 
 \clearpage
 \pagenumbering{arabic}
@@ -115,7 +123,7 @@ Será que, com todo este investimento e interesse por parte de grandes empresas 
 \section{Objetivos}
 Este relatório, realizado no âmbito da unidade curricular de Introdução à Engenharia Informática, terá como principal objetivo dar a conhecer a nova realidade tecnológica dos dispositivos \textit{mixed reality} e a sua utilidade, focando nos óculos holográficos de realidade aumentada \textit{HoloLens 2} desenvolvidos pela \textit{Microsoft}.
 
-Tentar-se-á ainda responder a algumas perguntas frequentes quando o assunto é \ac{ra} tais como: "Será que a \ac{ra} é uma tecnologia relevante?", "A \ac{ra} surgirá no nosso quotidiano num futuro próximo?" e "Quais são as limitações atuais desta tecnologia?"
+Tentar-se-á ainda responder a algumas perguntas frequentes quando o assunto é \ac{ra} tais como: "Será que a \ac{ra} é uma tecnologia relevante?", "A \ac{ra} surgirá no nosso quotidiano num futuro próximo?" e "Quais são as limitações atuais desta tecnologia?".
 
 \section{Organização e estrutura}
 O relatório \textit{Realidade Aumentada} contém informação abrangente relativa a esta área e está organizado de forma a que o leitor não necessite de quaisquer conhecimentos prévios para poder acompanhar a totalidade dos capítulos.
@@ -329,7 +337,7 @@ Apesar de existir muita pesquisa e estarem grandes empresas envolvidas, as opç�
 %%% MICROSOFT HOLOLENS 2 %%%
 \chapter{Microsoft \textit{HoloLens 2}}
 \label{chap.microsoft-hololens-2}
-Neste capítulo apresenta-se os óculos de \ac{ra} da \textit{Microsoft}: os \textit{Hololens 2}. Abordar-se-ão as suas principais características, o seu principal objetivo e o seu \textit{design} que os diferencia de qualquer outro equipamento.
+Neste capítulo apresenta-se os óculos de \ac{ra} da \textit{Microsoft}: os \textit{HoloLens 2}. Abordar-se-ão as suas principais características, o seu principal objetivo e o seu \textit{design} que os diferencia de qualquer outro equipamento.
 
 \section{Proposta do produto}
 \begin{quote}
@@ -344,7 +352,7 @@ A \textit{Microsoft} apresentou ao público um novo e revolucionário dispositiv
 \begin{figure}[H]
     \centering
     \includegraphics[width=14em]{hololens2.png}
-    \caption{Óculos de Realidade Aumentada \textit{Hololens 2}.}
+    \caption{Óculos de Realidade Aumentada \textit{HoloLens 2}.}
     \label{Fig:hololens2}
 \end{figure}
 
@@ -352,7 +360,7 @@ A \textit{Microsoft} apresentou ao público um novo e revolucionário dispositiv
 Ao contrário da \textit{Google} que apenas permite a venda dos seus óculos a empresas, a \textit{Microsoft} optou por permitir que qualquer pessoa possa comprar os seus óculos de \ac{ra}.
 
 \section{Design e principais características}
-Os óculos \textit{Hololens 2} revolucionaram o mercado por se adaptarem a cada utilizador, oferecendo uma boa imersão, e em simultâneo sendo confortáveis de usar, não causando qualquer incómodo ou constrangimento.
+Os óculos \textit{HoloLens 2} revolucionaram o mercado por se adaptarem a cada utilizador, oferecendo uma boa imersão, e em simultâneo sendo confortáveis de usar, não causando qualquer incómodo ou constrangimento.
 
 Todo este conforto deve-se a melhorias em relação ao modelo anterior e a algumas novas características exclusivas deste modelo:
 
@@ -364,22 +372,24 @@ Todo este conforto deve-se a melhorias em relação ao modelo anterior e a algum
 
     Resolução & Visto que o objetivo de produtos como este prende-se pela inserção de elementos virtuais na realidade existiu a grande necessidade de aumentar a resolução dos hologramas. Assim, através de uma complexa projeção a laser que guia a luz diretamente para a retina do utilizador, o \textit{display} transparente emite uma imagem holográfica de resolução 2K em cada um dos olhos do utilizador fazendo com que os hologramas parecem mais naturais e reais. \\ \hline
 
-    Ajuste Interpupilar & Cada pessoa tem características faciais diferentes o que implica a necessidade de um ajuste de forma a que a imagem fique adequada e não cause desconforto ao utilizador. Os \textit{Hololens} recorrem a pequenos sensores no interior dos óculos para medir a distância entre as pupilas dos olhos do utilizador de modo a que, então, a imagem seja corretamente ajustada. \\ \hline
+    Ajuste Interpupilar & Cada pessoa tem características faciais diferentes o que implica a necessidade de um ajuste de forma a que a imagem fique adequada e não cause desconforto ao utilizador. Os \textit{HoloLens} recorrem a pequenos sensores no interior dos óculos para medir a distância entre as pupilas dos olhos do utilizador de modo a que, então, a imagem seja corretamente ajustada. \\ \hline
 
     \textit{Mixed Reality} & \textit{Mixed Reality} é, segundo a Microsoft o termo mais correto para caracterizar o tipo de \ac{ra} a que estes óculos se destinam: uma realidade onde os elementos virtuais se encontram perfeitamente integrados. Com pequenos sensores posicionados nos óculos e através de um sistema de localização e análise dos movimentos das mãos do utilizador é possível manipular os hologramas de forma intuitiva. Para além disto, um algoritmo de inteligência artificial analisa todo o cenário em redor do utilizador e identifica todos os elementos presentes na sala permitindo que o computador identifique superfícies e locais onde poderá ou não projetar um holograma. \\ \hline
     \end{tabular}
+    \label{principais-caracteristicas}
+    \caption{Principais características dos \textit{HoloLens 2}}
 \end{table}
 
 \section{Público Alvo}
 
-Os óculos \textit{Hololens 2}, apesar de serem principalmente direcionados a profissionais, são apresentados como um produto que no futuro pode ser usado por utiizadores de qualquer faixa etária.
+Os óculos \textit{HoloLens 2}, apesar de serem principalmente direcionados a profissionais, são apresentados como um produto que no futuro pode ser usado por utiizadores de qualquer faixa etária.
 
 Atualmente, até por causa do seu preço, o grande propósito destes óculos é o aumento da produtividade das pessoas que os utiliza. Para pessoas comuns, este produto poderá ter pouca ou nenhuma utilidade.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=20em]{engenheirolens.png}
-    \caption{Utilização do \textit{Hololens 2} por engenheiros.}
+    \caption{Utilização do \textit{HoloLens 2} por engenheiros.}
     \label{Fig:hololens3}
 \end{figure}
 
