@@ -9,11 +9,13 @@
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{indentfirst}
+\usepackage{tabularx}
 \usepackage{float}
 \usepackage{subcaption}
 
 \bibliography{bibliografia}
 \setlength{\parskip}{0.35em}
+\newcommand{\centered}[1]{\begin{tabular}{l} #1 \end{tabular}}
 
 \begin{document}
 %%% DEFINIÇÕES GLOBAIS %%%
@@ -21,7 +23,7 @@
 \def\data{Aveiro, dezembro 2021}
 \def\autores{Miguel Vila, Diogo Silva}
 \def\autorescontactos{(107276) miguelovila@ua.pt, (108212) dsgps@ua.pt}
-\def\versao{BETA SINCE 2013}
+\def\versao{VERSÃO 1}
 \def\departamento{DETI}
 \def\empresa{UNIVERSIDADE DE AVEIRO}
 \def\logotipo{ua.pdf}
@@ -280,8 +282,8 @@ A solução para a sobrecarga dos centros de distribuição e armazéns poderá 
 
 Devido à situação pandémica, as empresas de transportes aéreos de mercadorias sentiram uma crescente sobrecarga com o aumento do volume de compras online. Assim, investiram em tecnologias de \ac{rv} e de \ac{ra} que, segundo a agência de notícias \ac{abn}, ajudaram as empresas a ultrapassar as dificuldades sentidas.\cite{moody_2020}
 
-\section{Desafios e limitações}
-!!!TODO!!!
+%\section{Desafios e limitações}
+%!!!TODO!!!
 
 %%% ÓCULOS HOLOGRÁFICOS %%%
 \chapter{Óculos Holográficos}
@@ -323,38 +325,51 @@ Apesar de existir muita pesquisa e estarem grandes empresas envolvidas, as opç�
 %%% MICROSOFT HOLOLENS 2 %%%
 \chapter{Microsoft \textit{HoloLens 2}}
 \label{chap.microsoft-hololens-2}
-No 4º capítulo apresentamos o Microsoft \textit{Hololens 2}. Um exemplo dum produto que nos permite imergir na \ac{ra} e que pode ser adquirido por qualquer pessoa para poder usufruir em qualquer lado.
-
-Abordaremos as principais características do produto, o seu objetivo principal para o uso diário e o seu revolucionário \textit{design} que revolucionou o mercado por ser tão imersivo, e em simultâneo tão confortável.
+Neste capítulo apresenta-se os óculos de \ac{ra} da \textit{Microsoft}: os \textit{Hololens 2}. Abordar-se-ão as suas principais características, o seu principal objetivo e o seu \textit{design} que os diferencia de qualquer outro equipamento.
 
 \section{Proposta do produto}
-A Microsoft apresenta ao público um novo e revolucionário dispositivo de realidade aumentada. Através de um design minimalista e moderno, o “HoloLens 2” promete ser mais eficiente que a sua versão anterior e que todos os seus concorrentes. 
-
-É apresentado como um produto que irá servir para todas as idades, para qualquer uso que nos seja útil, e desta vez com um formato mais confortável, para poder ser utilizado diversas horas sem causar desconforto ao utilizador e poder tirar o maior proveito sem qualquer incómodo nem constrangimento.
-
 \begin{quote}
-    "\emph{Não existirá nenhum produto que compita com o nosso nos próximos dois a três anos e que possa garantir o nível de fidelidade que apresentamos.}"
+    ``\emph{There’s no competition for the next two or three years that can come close this level of fidelity.}''\cite{bohn_2019}
 \end{quote}
 \begin{flushright}
-    Zulfi Alan, gerente geral de engenharia ótica
+    Zulfi Alam, gerente geral de engenharia ótica na \textit{Microsoft}
 \end{flushright}
 
+A \textit{Microsoft} apresentou ao público um novo e revolucionário dispositivo de realidade aumentada. Através de um design minimalista e moderno, o \textit{HoloLens 2} promete ser mais eficiente que a sua versão anterior e que todos os seus concorrentes.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=14em]{hololens2.png}
+    \caption{Óculos de Realidade Aumentada \textit{Hololens 2}.}
+    \label{Fig:hololens2}
+\end{figure}
+
+
+Ao contrário da \textit{Google} que apenas permite a venda dos seus óculos a empresas, a \textit{Microsoft} optou por permitir que qualquer pessoa possa comprar os seus óculos de \ac{ra}.
 
 \section{Design e principais características}
-a. Campo de visão
-Uma das maiores críticas direcionadas à primeira versão destes óculos estava relacionada com o pequeno campo de visão. Assim, a segunda versão foi desenhada para permitir apresentar um maior campo de visão aumentando, então, a “imersão” neste ambiente misto.
+Os óculos \textit{Hololens 2} revolucionaram o mercado por se adaptarem a cada utilizador, oferecendo uma boa imersão, e em simultâneo sendo confortáveis de serem usados e não causando qualquer incómodo ou constrangimento.
 
-b. Resolução
-Visto que o objetivo de produtos como este prende-se pela inserção de elementos virtuais na realidade existiu a grande necessidade de aumentar a resolução dos hologramas. Assim, através de uma complexa projeção a laser que guia a luz diretamente para a retina do utilizador, o \textit{“display”} transparente emite uma imagem holográfica de resolução 2K em cada um dos olhos do utilizador fazendo com que os hologramas parecem mais naturais e reais.
+Todo este conforto deve-se a algumas características exclusivas deste modelo:
 
-c. Ajuste interpupilar
-Cada pessoa tem características faciais diferentes o que implica a necessidade de um ajuste de forma a que a imagem fique adequada e não cause desconforto ao utilizador. Os HoloLens recorrem a pequenos sensores no interior dos óculos para medir a distância entre as pupilas dos nossos olhos de modo a que então a imagem seja corretamente ajustada.
+\begin{table}[H]
+    \centering
+    \begin{tabular}{ | {c} | p{.73\textwidth} |}
+    \hline
+    Campo de Visão & Uma das maiores críticas direcionadas à primeira versão destes óculos estava relacionada com o pequeno campo de visão. Assim, a segunda versão foi desenhada para permitir apresentar um maior campo de visão aumentando, então, a imersão neste ambiente misto. \\ \hline
 
-d. \textit{“Mixed Reality”}
-\textit{Mixed Reality} é, segundo a Microsoft o termo mais correto para caracterizar o tipo de \ac{ra} a que estes óculos se destinam: uma realidade onde os elementos virtuais se encontram perfeitamente integrados. Com pequenos sensores posicionados nos óculos e através de um sistema de localização e análise dos movimentos das mãos do utilizador é possível manipular os hologramas de forma intuitiva. Para além disto, um algoritmo de inteligência artificial analisa todo o cenário em redor do utilizador e identifica todos os elementos presentes na sala permitindo que o computador identifique superfícies e locais onde poderá ou não projetar um holograma.
+    Resolução & Visto que o objetivo de produtos como este prende-se pela inserção de elementos virtuais na realidade existiu a grande necessidade de aumentar a resolução dos hologramas. Assim, através de uma complexa projeção a laser que guia a luz diretamente para a retina do utilizador, o \textit{display} transparente emite uma imagem holográfica de resolução 2K em cada um dos olhos do utilizador fazendo com que os hologramas parecem mais naturais e reais. \\ \hline
 
+    Ajuste Interpupilar & Cada pessoa tem características faciais diferentes o que implica a necessidade de um ajuste de forma a que a imagem fique adequada e não cause desconforto ao utilizador. Os \textit{Hololens} recorrem a pequenos sensores no interior dos óculos para medir a distância entre as pupilas dos olhos do utilizador de modo a que, então, a imagem seja corretamente ajustada. \\ \hline
+    
+    \textit{Mixed Reality} & \textit{Mixed Reality} é, segundo a Microsoft o termo mais correto para caracterizar o tipo de \ac{ra} a que estes óculos se destinam: uma realidade onde os elementos virtuais se encontram perfeitamente integrados. Com pequenos sensores posicionados nos óculos e através de um sistema de localização e análise dos movimentos das mãos do utilizador é possível manipular os hologramas de forma intuitiva. Para além disto, um algoritmo de inteligência artificial analisa todo o cenário em redor do utilizador e identifica todos os elementos presentes na sala permitindo que o computador identifique superfícies e locais onde poderá ou não projetar um holograma. \\ \hline
+    \end{tabular}
+\end{table}
 
 \section{Público Alvo}
+
+Os óculos \textit{Hololens 2}, apesar de serem direcionados a profissionais, são apresentados como um produto que pode ser usado por utiizadores de qualquer faixa etária.
+
 O grande propósito destes óculos é o aumento da produtividade de cada uma das pessoas que os utiliza.
 Para pessoas comuns, este produto poderá ter pouca ou nenhuma utilidade, mas, por outro lado, engenheiros e artistas, por exemplo, podem ver este produto como uma ferramenta muito promissora que poderá facilitar o processo de criação de algo.
 
