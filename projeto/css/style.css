@@ -42,6 +42,10 @@ section {
 }
 
 /* Estilos da Navbar */
+.navbar {
+  box-shadow: 0 2px 30px 10px #2125298f;
+}
+
 .navbar .navbar-brand {
     text-transform: uppercase;
     color: #fed136;
