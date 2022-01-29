@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+body {
+  line-height: 1.8;
+  color: #898fa1;
+  font-size: 1em;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #11245a;
+}
+
+a {
+  font-weight: 700;
+  transition: all 0.4s ease;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+small {
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* Estilos da Navbar */
+.navbar .navbar-brand {
+    text-transform: uppercase;
+    color: #fed136;
+}
+
+.navbar .navbar-brand:hover {
+    color: #caa82a;
+}
+
+.navbar .navbar-brand:focus {
+    color: #fed136;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 0.90rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #fed136;
+}
+
+.navbar .navbar-nav .nav-link:focus {
+    color: #fed136;
+}
+
+.navbar .navbar-nav .nav-link.active {
+    color: #fed136;
+}
