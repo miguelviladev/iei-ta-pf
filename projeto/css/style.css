@@ -4,7 +4,7 @@
 body {
   line-height: 1.8;
   color: #898fa1;
-  font-size: 1em;
+  font-size: 140%;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -31,7 +31,6 @@ img {
 }
 
 small {
-  font-size: 12px;
   letter-spacing: 2px;
   font-weight: 700;
   text-transform: uppercase;
@@ -47,7 +46,6 @@ section {
   background-color: #fed136;
   padding: 0.7rem 1.2rem;
   font-weight: 600;
-  font-size: 17px;
   border-style: none;
 }
 
@@ -82,7 +80,7 @@ section {
 .navbar .navbar-nav .nav-link {
     color: #ffffff;
     font-weight: 400;
-    font-size: 0.90rem;
+    font-size: 80%;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -127,6 +125,5 @@ header {
 
 #topo p {
   max-width: 550px;
-  font-size: 20px;
   margin: 18px auto;
 }
