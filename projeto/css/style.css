@@ -112,6 +112,12 @@ section {
   border: 1px solid #fed136;
 }
 
+<<<<<<< HEAD
+/*Estilos da Secção Aplicações*/
+
+
+
+=======
 /* Estilos do Header */
 header {
   background: linear-gradient(rgba(17, 17, 17, 0.6), rgba(17, 17, 17, 0.6)), url(../img/fundo_html.jpg);
@@ -132,3 +138,4 @@ header {
   font-size: 20px;
   margin: 18px auto;
 }
+>>>>>>> eeccb3f3b20bf49e10458d1e25e96996e4bba37c
