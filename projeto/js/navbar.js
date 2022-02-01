@@ -4,4 +4,4 @@ async function esconder(navlink = true) {
     if ((toggler_visivel && navbar_aberta)){
         const bsCollapse = new bootstrap.Collapse(document.getElementById("navbarNav"));
     }
-  };
+};
