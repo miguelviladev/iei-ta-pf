@@ -51,17 +51,14 @@ section {
   border-style: none;
 }
 
-.btn-primary:active {
-  border-style: none;
-}
-
 .btn-primary:hover {
   background-color: #caa82a;
 }
 
-.btn-primary:focus {
+.btn-primary:focus,.btn-primary:active {
+  outline: none !important;
   background-color: #fed136;
-  border-style: none;
+  box-shadow: none !important;
 }
 
 /* Estilos da Navbar */
@@ -125,6 +122,7 @@ header {
 
 #topo h1 {
   font-weight: 700;
+  margin-bottom: 3rem;
 }
 
 #topo p {
