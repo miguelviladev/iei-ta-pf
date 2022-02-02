@@ -4,7 +4,6 @@
 /* Estilos Gerais */
 body {
   line-height: 1.8;
-  color: #898fa1;
   font-size: 140%;
   font-family: "Montserrat", sans-serif;
   user-select: none;
@@ -12,15 +11,20 @@ body {
 }
 
 h1,
-h2,
+h2 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #212529;
+}
+
 h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
-  letter-spacing: 1px;
   text-transform: uppercase;
-  color: #11245a;
+  color: #212529;
+  font-weight: 500;
 }
 
 a {
@@ -42,6 +46,19 @@ small {
 section {
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.section-header h3 {
+  color: #5e5e5e;
+  text-transform: lowercase;
+  font-size: 110%;
+  text-align: center;
 }
 
 /* Estilos dos Botões */
@@ -156,4 +173,43 @@ header {
   100%{
     transform: translateY(-20px) rotate(45deg);
   }
+}
+
+/* Estilos das Aplicações */
+.aplicacao {
+  overflow: hidden;
+  position: relative;
+}
+.aplicacao img,
+.aplicacao .aplicacao-overlay {
+   transition: all 0.4s ease;
+}
+
+.aplicacao-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(17, 17, 17, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  opacity: 0;
+}
+
+.aplicacao-overlay h3,
+.aplicacao-overlay h6 {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 600;
+}
+
+.aplicacao:hover .aplicacao-overlay {
+  opacity: 1;
+}
+
+.aplicacao:hover img {
+  transform: scale(1.1);
 }
