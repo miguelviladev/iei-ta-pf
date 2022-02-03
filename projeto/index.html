@@ -1,392 +1,370 @@
+
+
 <!DOCTYPE html>
 <html lang="pt-PT">
-
-<head>
-    <!-- Meta Tags Necessárias -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- CSS do Bootstrap -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <!-- CSS Personalizado -->
-    <link rel="stylesheet" href="./css/style.css" />
-    <!-- JS Personalizado -->
-    <script type="text/javascript" src="./js/navbar.js"></script>
-    <title>Realidade Aumentada</title>
-</head>
-
-<body data-bs-spy="scroll" data-bs-target=".navbar">
-    <!-- Barra de Navegação -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#topo" onclick="esconder(false)">Realidade Aumentada</a>
-            <button id="toggler" class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#conceito" onclick="esconder()">Conceito</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#historia" onclick="esconder()">História</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#aplicacoes" onclick="esconder()">Aplicações</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#futuro" onclick="esconder()">Futuro</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#sobre" onclick="esconder()">Sobre</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Header -->
-    <header id="topo">
-        <div class="container text-center">
-            <div class="row justify-content-center">
-                <div class="col-md-10">
-                    <p class="text-white">Um olhar detalhado sobre a</p>
-                    <h1 class="text-white display-3">Realidade Aumentada</h1>
-                    <a class="btn-scrolldown" href="#conceito"></a>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <!--Conceito-->
-    <section id="conceito">
-        <div class="section-header container">
-            <h2>Conceito</h2>
-            <h3>entende o que é a realidade aumentada</h3>
-        </div>
-        <div class="container" style="padding: 20px 40px">
-            <div class="row">
-                <div class="col-md-6 align-self-center">
-                    <p class="text-start" style="font-style: italic">
-                        " A display connected to a digital computer gives us a chance to
-                        gain familiarity with concepts not realizable in the physical
-                        world. It is a looking glass into a mathematical wonderland."
-                    </p>
-                    <p class="text-end" style="
-                opacity: 0.73;
-                filter: brightness(88%) contrast(135%) sepia(0%);
-              ">
-                        Ivan E. Sutherland
-                    </p>
-                </div>
-                <div class="col-md-6 text-center">
-                    <img class="img-fluid" src="./img/ivan-sutherland.jpeg" loading="auto" />
-                </div>
-            </div>
-        </div>
-        <div class="container" style="padding: 20px 40px">
-            <div class="row">
-                <div class="col-md-12 text-start" style="text-align: justify">
-                    <p>
-                        O Homem procura, desde os primórdios, o controlo da sua realidade
-                        moldando-a e modifcando-a de acordo com as suas necessidades. Isso
-                        começou com o controlo do fogo originando uma grande revolução a
-                        todos os níveis.
-                    </p>
-                    <p>
-                        Milhares de anos depois, o ser humano continua a tentar ter ainda
-                        mais controlo sobre a realidade de modo a que o impossível se
-                        torne possível. Como a realidade aumentada estende virtualmente
-                        aquilo que existe no mundo real, existe uma forte probabilidade de
-                        que, tal como o fogo, esta tecnologia venha a revolucionar a forma
-                        como se vive.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--Introdução
-    <section id="introducao">
-        <div class="container">
-            <div class="section-header">
-                <h2>Conceito</h2>
-                <h3>descobre áreas onde a realidade aumentada já faz a diferença</h3>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-4"><span class="fa-stack fa-4x"><i
-                            class="fa fa-circle fa-stack-2x text-primary"></i><i
-                            class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i></span>
-                    <h4 class="section-heading">Introdução</h4>
-                    <p class="text-muted">O ambiente virtual ou Realidade Virtual é uma tecnologia cujo mecanismo é
-                        aplicado a uma interface que conecta os usuários e utiliza um sistema informatizado, para
-                        construir uma plataforma realista e proporcionar ao visitante uma sensação de que o que se está
-                        a ver é praticamente parte do real. Os elementos da Relidade Virtual são interativos e alguns
-                        com aspectos tridimensionais, sendo o ambiente 3D formatado por um computador e possibilita a
-                        realização de uma navegação real pelo usuário. Pode-se ainda dizer que a Realidade Virtual é a
-                        técnica que permite a maior interação e imersão a quem utiliza.</p>
-                </div>
-                <div class="col-md-4"><span class="fa-stack fa-4x"><i
-                            class="fa fa-circle fa-stack-2x text-primary"></i><i
-                            class="fa fa-laptop fa-stack-1x fa-inverse"></i></span>
-                    <h4 class="section-heading">Objetivos</h4>
-                    <p class="text-muted">O objetivo da Realidade Virtual é projetar o que é real no ambiente virtual em
-                        tempo real, baseado em técnicas e ferramentas tecnológicas com o intuito de ampliar a sensação
-                        de realidade ao visitante. Resumindo, a Realidade Virtual é uma simulação do que se vive na
-                        plataforma informatizada, que, através da compreensão das situações, conseguimos aproximá-las do
-                        que é real.</p>
-                </div>
-                <div class="col-md-4"><span class="fa-stack fa-4x"><i
-                            class="fa fa-circle fa-stack-2x text-primary"></i><i
-                            class="fa fa-lock fa-stack-1x fa-inverse"></i></span>
-                    <h4 class="section-heading">Origem</h4>
-                    <p class="text-muted">O termo Realidade Virtual ou RV, teve seu início na década de 1970, data esta
-                        em que alguns estudiosos registraram suas primeiras pesquisas relacionadas ao tema, como é o
-                        caso de Myron Krueger que utilizava o termo Realidade Artificial em seus estudos de sistemas de
-                        computadores. O ano que marcou o início da Realidade Virtual foi 1980, com Jaron Lanier e seu
-                        simulador que foi compartilhado com vários usuários simultaneamente.</p>
-                </div>
-            </div>
-        </div>
-    </section>-->
-
-    <!--História-->
-    <section class="bg-light" id="historia">
-      <div>
-
-      <div class="section-header container">
-            <h2>História</h2>
-            <h3>conhece os grandes marcos históricos no percurso de evolução da realidade aumentada</h3>
-      </div>
-
-
-      <div class="tl-item">
-        <div class="tl-bg" style="background-image: url(./img/old.jpg)"></div>
-    
-            <div class="tl-year">
-             <p class="f2 heading--sanSerif">1962</p>
-             </div>
-    
-            <div class="tl-content">
-             <h1>Criação do Sensorama</h1>
-            <p>Aparecimento da primeira tecnologia multicensorial imersiva, um aparelho de <em>Morton Heilig</em> que deu um grande passo no mundo tecnologico. Este aparelho já era capaz de exibir imagens 3D, som estéreo, sensações hápticas através da inclinação do corpo e sensações de vento e aromas. </p>
-            </div>
-    
-      </div>
-    
-      <div class="tl-item">
-        
-        <div class="tl-bg" style="background-image: url(./img/HMD.jpg)"></div>
-        
-        <div class="tl-year">
-          <p class="f2 heading--sanSerif">1968</p>
-        </div>
-    
-        <div class="tl-content">
-          <h1 class="f3 text--accent ttu">Primeiro <em>Head Mounted Display</em></h1>
-          <p><em>Ivan Sutherland</em> desenvolveu o primeiro HMD, ao qual lhe deu o nome de "The Sword of Damocles", um dispositivo que se coloca na cabeça, parte integrante dum capacete com um display ótico a frente que permitia visualizar qualquer tipo de conteudo em qualquer lugar.</p>
-        </div>
-    
-      </div>
-    
-      <div class="tl-item">
-        
-        <div class="tl-bg" style="background-image: url(./img/1992.jpg)"></div>
-        
-        <div class="tl-year">
-          <p class="f2 heading--sanSerif">1992</p>
-        </div>
-    
-        <div class="tl-content">
-          <h1 class="f3 text--accent ttu">Termo de realidade Aumentada é criado </h1>
-          <p>Em 1992 <em>Tom Caudell</em> e <em>David Mizell</em> tiveram o desafio de fornecer uma alternativa aos diagramas e dispositivos de marcação usados para guiar os trabalhadores no chão de fábrica da empresa. A solução que desenvolveram foi um HMD que poderia ser usados pelos trabalhadores e exibia os diagramas e esquemas dos aviões e os projetava em placas reutilizáveis, sendo que a informação a visualizar poderia ser alterada através de computador.</p>
-        </div>
-    
-      </div>
-    
-      <div class="tl-item">
-        
-        <div class="tl-bg" style="background-image: url(./img/pokemon.jpg)"></div>
-        
-        <div class="tl-year">
-          <p class="f2 heading--sanSerif">2016</p>
-        </div>
-    
-        <div class="tl-content">
-          <h1 class="f3 text--accent ttu">Pokemon GO</h1>
-          <p>Este jogo que todos conhecemos, criado em 2016 foi uma das maiores demonstrações da Realidade Aumentada acessivel a qualquer um, onde era possivel projetar os pokemons do jogo num plano do mundo real. Apesar do jogo parecer uma grande evolução, o jogo tem uma falha no posicionamento dos pokemons, que poide chegar aos 6metros. Em termos de jogabilidade não afeta em nada, mas num outro plano, como na aplicação a nivel industrial esse erro inviabiliza a sua prática.</p>
-        </div>
-    
-
-        </div>
-    </section>
-
-    <!--Aplicações-->
-    <section id="aplicacoes">
-        <div class="section-header container">
-            <h2>Aplicações</h2>
-            <h3>descobre áreas onde a realidade aumentada já faz a diferença</h3>
-        </div>
-        <div class="row g-0 py-0">
-            <div class="col-lg-4 col-sm-6">
-                <div class="aplicacao">
-                    <img src="./img/gaming.jpg" alt="realidade aumentada utilizada na indústria dos videojogos">
-                    <div class="aplicacao-overlay">
-                        <div>
-                            <h3>Videojogos</h3>
-                            <h6>Na área dos jogos, com o avanço dos telemóveis e a vulgarização, por exemplo, dos óculos
-                                holográfcos, os jogos poderão ser muito mais complexos e, mesmo com a componente
-                                virtual, promover uma ligação maior com a realidade.</h6>
-                        </div>
+	<head>
+		<!-- Meta Tags Necessárias -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- CSS do Bootstrap -->
+		<link rel="stylesheet" href="./css/bootstrap.min.css" />
+		<!-- CSS Personalizado -->
+		<link rel="stylesheet" href="./css/style.css" />
+		<!-- JS Personalizado -->
+		<script type="text/javascript" src="./js/navbar.js"></script>
+		<title>Realidade Aumentada</title>
+	</head>
+	<body data-bs-spy="scroll" data-bs-target=".navbar">
+		<!-- Barra de Navegação -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+			<div class="container">
+				<a class="navbar-brand" href="#topo" onclick="esconder(false)">Realidade Aumentada</a>
+				<button id="toggler" class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+					aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="#conceito" onclick="esconder()">Conceito</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#historia" onclick="esconder()">História</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#aplicacoes" onclick="esconder()">Aplicações</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#futuro" onclick="esconder()">Futuro</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#sobre" onclick="esconder()">Sobre</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- Header -->
+		<header id="topo">
+			<div class="container text-center">
+				<div class="row justify-content-center">
+					<div class="col-md-10">
+						<p class="text-white">Um olhar detalhado sobre a</p>
+						<h1 class="text-white display-3">Realidade Aumentada</h1>
+						<a class="btn-scrolldown" href="#conceito"></a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!--Conceito-->
+		<section id="conceito">
+			<div class="section-header container">
+				<h2>Conceito</h2>
+				<h3>entende o que é a realidade aumentada</h3>
+			</div>
+			<div class="container" style="padding: 20px 40px">
+				<div class="row">
+					<div class="col-md-6 align-self-center">
+						<p class="text-start" style="font-style: italic">
+							" A display connected to a digital computer gives us a chance to
+							gain familiarity with concepts not realizable in the physical
+							world. It is a looking glass into a mathematical wonderland."
+						</p>
+						<p class="text-end" style="
+							opacity: 0.73;
+							filter: brightness(88%) contrast(135%) sepia(0%);
+							">
+							Ivan E. Sutherland
+						</p>
+					</div>
+					<div class="col-md-6 text-center">
+						<img class="img-fluid" src="./img/ivan-sutherland.jpeg" loading="auto" />
+					</div>
+				</div>
+			</div>
+			<div class="container" style="padding: 20px 40px">
+				<div class="row">
+					<div class="col-md-12 text-start" style="text-align: justify">
+						<p>
+							O Homem procura, desde os primórdios, o controlo da sua realidade
+							moldando-a e modifcando-a de acordo com as suas necessidades. Isso
+							começou com o controlo do fogo originando uma grande revolução a
+							todos os níveis.
+						</p>
+						<p>
+							Milhares de anos depois, o ser humano continua a tentar ter ainda
+							mais controlo sobre a realidade de modo a que o impossível se
+							torne possível. Como a realidade aumentada estende virtualmente
+							aquilo que existe no mundo real, existe uma forte probabilidade de
+							que, tal como o fogo, esta tecnologia venha a revolucionar a forma
+							como se vive.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--Introdução
+			<section id="introducao">
+			    <div class="container">
+			        <div class="section-header">
+			            <h2>Conceito</h2>
+			            <h3>descobre áreas onde a realidade aumentada já faz a diferença</h3>
+			        </div>
+			        <div class="row text-center">
+			            <div class="col-md-4"><span class="fa-stack fa-4x"><i
+			                        class="fa fa-circle fa-stack-2x text-primary"></i><i
+			                        class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i></span>
+			                <h4 class="section-heading">Introdução</h4>
+			                <p class="text-muted">O ambiente virtual ou Realidade Virtual é uma tecnologia cujo mecanismo é
+			                    aplicado a uma interface que conecta os usuários e utiliza um sistema informatizado, para
+			                    construir uma plataforma realista e proporcionar ao visitante uma sensação de que o que se está
+			                    a ver é praticamente parte do real. Os elementos da Relidade Virtual são interativos e alguns
+			                    com aspectos tridimensionais, sendo o ambiente 3D formatado por um computador e possibilita a
+			                    realização de uma navegação real pelo usuário. Pode-se ainda dizer que a Realidade Virtual é a
+			                    técnica que permite a maior interação e imersão a quem utiliza.</p>
+			            </div>
+			            <div class="col-md-4"><span class="fa-stack fa-4x"><i
+			                        class="fa fa-circle fa-stack-2x text-primary"></i><i
+			                        class="fa fa-laptop fa-stack-1x fa-inverse"></i></span>
+			                <h4 class="section-heading">Objetivos</h4>
+			                <p class="text-muted">O objetivo da Realidade Virtual é projetar o que é real no ambiente virtual em
+			                    tempo real, baseado em técnicas e ferramentas tecnológicas com o intuito de ampliar a sensação
+			                    de realidade ao visitante. Resumindo, a Realidade Virtual é uma simulação do que se vive na
+			                    plataforma informatizada, que, através da compreensão das situações, conseguimos aproximá-las do
+			                    que é real.</p>
+			            </div>
+			            <div class="col-md-4"><span class="fa-stack fa-4x"><i
+			                        class="fa fa-circle fa-stack-2x text-primary"></i><i
+			                        class="fa fa-lock fa-stack-1x fa-inverse"></i></span>
+			                <h4 class="section-heading">Origem</h4>
+			                <p class="text-muted">O termo Realidade Virtual ou RV, teve seu início na década de 1970, data esta
+			                    em que alguns estudiosos registraram suas primeiras pesquisas relacionadas ao tema, como é o
+			                    caso de Myron Krueger que utilizava o termo Realidade Artificial em seus estudos de sistemas de
+			                    computadores. O ano que marcou o início da Realidade Virtual foi 1980, com Jaron Lanier e seu
+			                    simulador que foi compartilhado com vários usuários simultaneamente.</p>
+			            </div>
+			        </div>
+			    </div>
+			</section>-->
+		<!--História-->
+		<section id="historia">
+			<div class="section-header container">
+				<h2>História</h2>
+				<h3>conhece os marcos históricos mais importantes</h3>
+			</div>
+            <div class="item-container">
+                <div class="tl-item">
+                    <div class="tl-bg" style="background-image: url(./img/old.jpg)"></div>
+                    <div class="tl-year">
+                        <p class="f2 heading--sanSerif">1962</p>
+                    </div>
+                    <div class="tl-content">
+                        <h1>Criação do Sensorama</h1>
+                        <p>Aparecimento da primeira tecnologia multicensorial imersiva, um aparelho de <em>Morton Heilig</em> que deu um grande passo no mundo tecnologico. Este aparelho já era capaz de exibir imagens 3D, som estéreo, sensações hápticas através da inclinação do corpo e sensações de vento e aromas. </p>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="aplicacao">
-                    <img src="./img/education.jpg" alt="realidade aumentada utilizada na educação">
-                    <div class="aplicacao-overlay">
-                        <div>
-                            <h3>Educação</h3>
-                            <h6>Na educação a Realidade Aumentada pode ser utilizada através da
-                                implementação de manuais escolares interativos onde se podem
-                                projetar e visualizar ao detalhe imagens, vídeos e textos.</h6>
-                        </div>
+                <div class="tl-item">
+                    <div class="tl-bg" style="background-image: url(./img/HMD.jpg)"></div>
+                    <div class="tl-year">
+                        <p class="f2 heading--sanSerif">1968</p>
+                    </div>
+                    <div class="tl-content">
+                        <h1 class="f3 text--accent ttu">Primeiro <em>Head Mounted Display</em></h1>
+                        <p><em>Ivan Sutherland</em> desenvolveu o primeiro HMD, ao qual lhe deu o nome de "The Sword of Damocles", um dispositivo que se coloca na cabeça, parte integrante dum capacete com um display ótico a frente que permitia visualizar qualquer tipo de conteudo em qualquer lugar.</p>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="aplicacao">
-                    <img src="./img/health.jpg" alt="realidade aumentada utilizada no ramo da súde">
-                    <div class="aplicacao-overlay">
-                        <div>
-                            <h3>Medicina</h3>
-                            <h6>Na medicina estamos na espectativa dum avanço a nível cirúgico,
-                                onde será possível criar órgãos em 3D e assim, diminuir a
-                                despesa da operação e diminuir os riscos da mesma.</h6>
-                        </div>
+                <div class="tl-item">
+                    <div class="tl-bg" style="background-image: url(./img/1992.jpg)"></div>
+                    <div class="tl-year">
+                        <p class="f2 heading--sanSerif">1992</p>
+                    </div>
+                    <div class="tl-content">
+                        <h1 class="f3 text--accent ttu">Termo de realidade Aumentada é criado </h1>
+                        <p>Em 1992 <em>Tom Caudell</em> e <em>David Mizell</em> tiveram o desafio de fornecer uma alternativa aos diagramas e dispositivos de marcação usados para guiar os trabalhadores no chão de fábrica da empresa. A solução que desenvolveram foi um HMD que poderia ser usados pelos trabalhadores e exibia os diagramas e esquemas dos aviões e os projetava em placas reutilizáveis, sendo que a informação a visualizar poderia ser alterada através de computador.</p>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="aplicacao">
-                    <img src="./img/engeneering.jpg" alt="realidade aumentada utilizada na engenharia">
-                    <div class="aplicacao-overlay">
-                        <div>
-                            <h3>Engenharia</h3>
-                            <h6>Na arquitetura é espectável que seja possível visualizar por
-                                exemplo casas antes da sua construção para que haja maior
-                                coerência entre os trabalhadores e o cliente.</h6>
-                        </div>
-                    </div>
+                <div class="tl-item">
+                <div class="tl-bg" style="background-image: url(./img/pokemon.jpg)"></div>
+                <div class="tl-year">
+                    <p class="f2 heading--sanSerif">2016</p>
+                </div>
+                <div class="tl-content">
+                    <h1 class="f3 text--accent ttu">Pokemon GO</h1>
+                    <p>Este jogo que todos conhecemos, criado em 2016 foi uma das maiores demonstrações da Realidade Aumentada acessivel a qualquer um, onde era possivel projetar os pokemons do jogo num plano do mundo real. Apesar do jogo parecer uma grande evolução, o jogo tem uma falha no posicionamento dos pokemons, que poide chegar aos 6metros. Em termos de jogabilidade não afeta em nada, mas num outro plano, como na aplicação a nivel industrial esse erro inviabiliza a sua prática.</p>
                 </div>
             </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="aplicacao">
-                    <img src="./img/architecture.jpeg" alt="realidade aumentada utilizada na arquitetura">
-                    <div class="aplicacao-overlay">
-                        <div>
-                            <h3>Arquitetura</h3>
-                            <h6>Na arquitetura é espectável que seja possível visualizar por
-                                exemplo casas antes da sua construção para que haja maior
-                                coerência entre os trabalhadores e o cliente.</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="aplicacao">
-                    <img src="./img/logistics.jpg" alt="realidade aumentada utilizada na logística">
-                    <div class="aplicacao-overlay">
-                        <div>
-                            <h3>Logística</h3>
-                            <h6>Se na atualidade as compras online já são um hábito de muitos,
-                                no futuro só irão aumentar, dificultando a logística dos
-                                armazéns. Aqui a Realidade aumentada ajuda no controlo de stock
-                                e entregas ao cliente.</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--NOTAS FINAIS-->
-    <section class="bg-light" id="futuro">
-        <div class="section-header container">
-            <h2>Futuro</h2>
-            <h3>imagina as novas possibilidades</h3>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <p>Apresentação do conceito de RA, tal como a comparação desta tecnologia com a RV, explição da sua
-                        origem e as eventuais utilizações que esta tem e terá no mundo. Ao contrário do que se imagina,
-                        a RA não se limitará apenas a contexto empresarial, todas as evoluções desta tecnologia irão
-                        ditar o estilo de vida do ser humano daqui a umas décadas, já que terá um impacto signifcativo
-                        no quotidiano de uma pessoa comum. Apresentação dos dispositivos de RA mais promissores na
-                        atualidade (Óculos Holográficos) e apresentação das utilidades práticas dos mesmos.</p>
-                    </p>Para concluir: o futuro apresenta-se muito promissor para a RA e, com a aposta de grandes
-                    empresas como a Google e a Microsoft , num curto espaço de tempo, a maioria das atividades
-                    comerciais irão fazer uso desta tecnologia. Fazendo o preço desta tecnologia reduzir à medida que a
-                    pesquisa avança, fazendo com que num futuro próximo, a utilização desta tecnologia possa vir a ser
-                    utilizada no quotidiano de pessoas comuns e não apenas no ambiente corporativo.</p>
-                </div>
-                <div class="col-md-6"><img src="./img/final.jpg"></div>  
-                <!--adicionar tbm img src="./img/pexelz.jpg"-->          
-            </div>
-        </div>
-    </section>
-
-    <!--Acerca de-->
-    <section id="sobre">
-        <div class="section-header container">
-            <h2>Sobre</h2>
-            <h3>mais informações acerca deste projeto</h3>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <form id="acerca" name="acercade" novalidate="novalidate">
-                        <div class="row">
-                            <div class="col-md-6 text-end">
-                                <div class="form-group mb-3">
-                                    <small class="form-text text-danger flex-grow-1 help-block lead"></small>
-                                </div>
-                                <strong style="text-align: left; border-style: none">Projeto Realizado por:<br />&nbsp;
-                                    &nbsp; &nbsp; &nbsp;
-                                    &nbsp; -Diogo Silva NºMEC: 108212-<br />&nbsp; &nbsp; &nbsp;
-                                    &nbsp; &nbsp; -Miguel Vila NºMEC:&nbsp;107276-<br />-Disciplina
-                                    de Introdução à Engenharia Informática-<br />-Universidade
-                                    de Aveiro - Licenciatura de engenharia de computadores e
-                                    Informática-<br />19-02-2022&nbsp;<br /></strong>
-                                <div class="form-group mb-3">
-                                    <small class="form-text text-danger help-block lead"></small>
-                                </div>
-                                <small class="text-end">-Professores da Disciplina:<br />Professor António Manuel
-                                    Adrego da Rocha<br />Professor Óscar Pereira<br /></small>
-                                <div class="form-group mb-3">
-                                    <small class="form-text text-danger help-block lead"></small>
-                                </div>
-                            </div>
-                            <div class="col-md-6 text-start">
-                                <div class="form-group mb-3">
-                                    <small class="form-text text-danger help-block lead"></small>
-                                </div>
-                                <strong>CONTRIBUIÇÕES DE CADA ELEMENTO:</strong>
-                            </div>
-                            <div class="w-100"></div>
-                            <div class="col-lg-12 text-center">
-                                <div id="success-1"></div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- JavaScript do Bootstrap -->
-    <script src="./js/bootstrap.bundle.min.js"></script>
-</body>
-
+		</section>
+		<!--Aplicações-->
+		<section id="aplicacoes">
+			<div class="section-header container">
+				<h2>Aplicações</h2>
+				<h3>descobre áreas onde a realidade aumentada já faz a diferença</h3>
+			</div>
+			<div class="row g-0 py-0">
+				<div class="col-lg-4 col-sm-6">
+					<div class="aplicacao">
+						<img src="./img/gaming.jpg" alt="realidade aumentada utilizada na indústria dos videojogos">
+						<div class="aplicacao-overlay">
+							<div>
+								<h3>Videojogos</h3>
+								<h6>Na área dos jogos, com o avanço dos telemóveis e a vulgarização, por exemplo, dos óculos
+									holográfcos, os jogos poderão ser muito mais complexos e, mesmo com a componente
+									virtual, promover uma ligação maior com a realidade.
+								</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="aplicacao">
+						<img src="./img/education.jpg" alt="realidade aumentada utilizada na educação">
+						<div class="aplicacao-overlay">
+							<div>
+								<h3>Educação</h3>
+								<h6>Na educação a Realidade Aumentada pode ser utilizada através da
+									implementação de manuais escolares interativos onde se podem
+									projetar e visualizar ao detalhe imagens, vídeos e textos.
+								</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="aplicacao">
+						<img src="./img/health.jpg" alt="realidade aumentada utilizada no ramo da súde">
+						<div class="aplicacao-overlay">
+							<div>
+								<h3>Medicina</h3>
+								<h6>Na medicina estamos na espectativa dum avanço a nível cirúgico,
+									onde será possível criar órgãos em 3D e assim, diminuir a
+									despesa da operação e diminuir os riscos da mesma.
+								</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="aplicacao">
+						<img src="./img/engeneering.jpg" alt="realidade aumentada utilizada na engenharia">
+						<div class="aplicacao-overlay">
+							<div>
+								<h3>Engenharia</h3>
+								<h6>Na arquitetura é espectável que seja possível visualizar por
+									exemplo casas antes da sua construção para que haja maior
+									coerência entre os trabalhadores e o cliente.
+								</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="aplicacao">
+						<img src="./img/architecture.jpeg" alt="realidade aumentada utilizada na arquitetura">
+						<div class="aplicacao-overlay">
+							<div>
+								<h3>Arquitetura</h3>
+								<h6>Na arquitetura é espectável que seja possível visualizar por
+									exemplo casas antes da sua construção para que haja maior
+									coerência entre os trabalhadores e o cliente.
+								</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="aplicacao">
+						<img src="./img/logistics.jpg" alt="realidade aumentada utilizada na logística">
+						<div class="aplicacao-overlay">
+							<div>
+								<h3>Logística</h3>
+								<h6>Se na atualidade as compras online já são um hábito de muitos,
+									no futuro só irão aumentar, dificultando a logística dos
+									armazéns. Aqui a Realidade aumentada ajuda no controlo de stock
+									e entregas ao cliente.
+								</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--NOTAS FINAIS-->
+		<section class="bg-light" id="futuro">
+			<div class="section-header container">
+				<h2>Futuro</h2>
+				<h3>imagina as novas possibilidades</h3>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<p>Apresentação do conceito de RA, tal como a comparação desta tecnologia com a RV, explição da sua
+							origem e as eventuais utilizações que esta tem e terá no mundo. Ao contrário do que se imagina,
+							a RA não se limitará apenas a contexto empresarial, todas as evoluções desta tecnologia irão
+							ditar o estilo de vida do ser humano daqui a umas décadas, já que terá um impacto signifcativo
+							no quotidiano de uma pessoa comum. Apresentação dos dispositivos de RA mais promissores na
+							atualidade (Óculos Holográficos) e apresentação das utilidades práticas dos mesmos.
+						</p>
+						</p>Para concluir: o futuro apresenta-se muito promissor para a RA e, com a aposta de grandes
+						empresas como a Google e a Microsoft , num curto espaço de tempo, a maioria das atividades
+						comerciais irão fazer uso desta tecnologia. Fazendo o preço desta tecnologia reduzir à medida que a
+						pesquisa avança, fazendo com que num futuro próximo, a utilização desta tecnologia possa vir a ser
+						utilizada no quotidiano de pessoas comuns e não apenas no ambiente corporativo.</p>
+					</div>
+					<div class="col-md-6"><img src="./img/final.jpg"></div>
+					<!--adicionar tbm img src="./img/pexelz.jpg"-->          
+				</div>
+			</div>
+		</section>
+		<!--Acerca de-->
+		<section id="sobre">
+			<div class="section-header container">
+				<h2>Sobre</h2>
+				<h3>mais informações acerca deste projeto</h3>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<form id="acerca" name="acercade" novalidate="novalidate">
+							<div class="row">
+								<div class="col-md-6 text-end">
+									<div class="form-group mb-3">
+										<small class="form-text text-danger flex-grow-1 help-block lead"></small>
+									</div>
+									<strong style="text-align: left; border-style: none">Projeto Realizado por:<br />&nbsp;
+									&nbsp; &nbsp; &nbsp;
+									&nbsp; -Diogo Silva NºMEC: 108212-<br />&nbsp; &nbsp; &nbsp;
+									&nbsp; &nbsp; -Miguel Vila NºMEC:&nbsp;107276-<br />-Disciplina
+									de Introdução à Engenharia Informática-<br />-Universidade
+									de Aveiro - Licenciatura de engenharia de computadores e
+									Informática-<br />19-02-2022&nbsp;<br /></strong>
+									<div class="form-group mb-3">
+										<small class="form-text text-danger help-block lead"></small>
+									</div>
+									<small class="text-end">-Professores da Disciplina:<br />Professor António Manuel
+									Adrego da Rocha<br />Professor Óscar Pereira<br /></small>
+									<div class="form-group mb-3">
+										<small class="form-text text-danger help-block lead"></small>
+									</div>
+								</div>
+								<div class="col-md-6 text-start">
+									<div class="form-group mb-3">
+										<small class="form-text text-danger help-block lead"></small>
+									</div>
+									<strong>CONTRIBUIÇÕES DE CADA ELEMENTO:</strong>
+								</div>
+								<div class="w-100"></div>
+								<div class="col-lg-12 text-center">
+									<div id="success-1"></div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- JavaScript do Bootstrap -->
+		<script src="./js/bootstrap.bundle.min.js"></script>
+	</body>
 </html>
+
