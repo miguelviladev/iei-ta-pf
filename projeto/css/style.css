@@ -213,11 +213,17 @@ header {
 	opacity: 0;
 }
 
-.aplicacao-overlay h3,
-.aplicacao-overlay h6 {
+.aplicacao-overlay h3 {
 	color: #ffffff;
 	text-align: center;
 	font-weight: 600;
+}
+
+.aplicacao-overlay p {
+	color: #ffffff;
+	line-height: normal;
+	text-align: center;
+	font-size: 85%;
 }
 
 @media only screen and (min-width: 992px){
