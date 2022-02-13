@@ -3,6 +3,11 @@
 
 /* Estilos Gerais */
 
+html {
+	scroll-padding-top: 100px;
+}
+
+
 body {
 	line-height: 1.8;
 	font-size: 140%;
@@ -57,9 +62,8 @@ small {
 	text-transform: uppercase;
 }
 
-section {
-	padding-top: 100px;
-	padding-bottom: 100px;
+section, header {
+	margin-bottom: 50px;
 }
 
 .section-header {
