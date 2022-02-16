@@ -224,6 +224,7 @@ header .paragraph-light {
 .aplicacao p {
   text-align: center;
   font-size: 85%;
+  line-height: normal;
 }
 
 .aplicacao img,
@@ -274,7 +275,7 @@ header .paragraph-light {
   position: relative;
   display: block;
   width: calc(139% + 1.3px);
-  height: 137px;
+  height: 100px;
 }
 
 .dark-to-white .shape-fill {
@@ -311,5 +312,51 @@ header .paragraph-light {
   .history-card-right,
   .history-card {
     text-align: center;
+  }
+}
+
+/* Futuro */
+
+.quote-holder {
+  font-family: 'Libre Baskerville', serif;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+blockquote p::before,
+blockquote p::after {
+   content: "“";
+   font-size: 5rem;
+   position: absolute;
+   opacity: 0.4;
+}
+
+blockquote p::before {
+  margin: -2.5rem 0 0 -2rem;
+}
+
+blockquote p::after {
+  transform: rotate(180deg);
+  margin: -3.5rem 0 0 0rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .quote-holder {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .quote-holder {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .quote-holder {
+    margin-left: 100px;
+    margin-right: 100px;
   }
 }
