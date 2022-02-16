@@ -215,6 +215,7 @@ header .paragraph-light {
 .aplicacao {
   overflow: hidden;
   position: relative;
+  background-color: #212529;
 }
 
 .aplicacao h4 {
@@ -229,7 +230,8 @@ header .paragraph-light {
 
 .aplicacao img,
 .aplicacao .aplicacao-overlay {
-  transition: all 0.4s ease;
+  transform: scale(1.01);
+  transition: all 0.4s ease-in-out;
 }
 
 .aplicacao-overlay {
@@ -251,7 +253,7 @@ header .paragraph-light {
     opacity: 1;
   }
   .aplicacao:hover img {
-    transform: scale(1.1);
+    transform: scale(1.11);
   }
 }
 
