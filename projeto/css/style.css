@@ -323,6 +323,10 @@ header .paragraph-light {
   font-family: 'Libre Baskerville', serif;
   margin-left: 1rem;
   margin-right: 1rem;
+  margin-bottom: 3rem;
+  background-color: #ebebeb;
+  padding: 1.5rem 3rem;
+  box-shadow: 0 2px 20px 10px #d3d3d3;
 }
 
 blockquote p::before,
@@ -346,6 +350,12 @@ blockquote p::after {
   .quote-holder {
     margin-left: 0rem;
     margin-right: 0rem;
+  }
+}
+
+@media (min-width:768px) and (max-width:992px) {
+  .quote-holder img {
+    content: url('../img/ivan-sutherland_squared.jpeg');
   }
 }
 
