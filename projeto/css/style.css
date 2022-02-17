@@ -358,17 +358,3 @@ blockquote p::after {
     content: url('../img/ivan-sutherland_squared.jpeg');
   }
 }
-
-@media only screen and (min-width: 992px) {
-  .quote-holder {
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .quote-holder {
-    margin-left: 100px;
-    margin-right: 100px;
-  }
-}
