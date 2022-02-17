@@ -365,10 +365,6 @@ blockquote p::after {
 
 /* Sobre */
 
-#sobre {
-  min-height: 75vh;
-}
-
 #sobre .col-md-6 {
   display: flex;
   flex-direction: column;
