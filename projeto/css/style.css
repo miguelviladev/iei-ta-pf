@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 /* Estilos Gerais */
@@ -23,10 +23,6 @@ a {
   font-weight: 700;
   transition: all 0.4s ease;
   text-decoration: none;
-}
-
-p {
-  line-height: 1.5;
 }
 
 .title1-dark {
@@ -75,6 +71,11 @@ p {
   color: #ffffff;
   text-align: justify;
   font-size: 90%;
+}
+
+.secondary-text {
+  font-size: 80%;
+  line-height: normal;
 }
 
 img {
@@ -358,3 +359,24 @@ blockquote p::after {
     content: url('../img/ivan-sutherland_squared.jpeg');
   }
 }
+
+/* Sobre */
+
+#sobre .col-md-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hyper-link {
+  font-weight: 500;
+  color:#212529;
+}
+
+.img-circular{
+  width: 200px;
+  height: 200px;
+  display: block;
+  border-radius: 100px;
+  margin-bottom: 1rem;
+ }
