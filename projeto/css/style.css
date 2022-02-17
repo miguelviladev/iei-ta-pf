@@ -327,6 +327,7 @@ header .paragraph-light {
   background-color: #d3d3d3;
   padding: 3rem 3rem 1.5rem 3rem;
   box-shadow: 0 10px 20px -10px #000000bb;
+  border-radius: 7px;
 }
 
 blockquote p::before,
