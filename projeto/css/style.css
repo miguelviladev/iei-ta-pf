@@ -395,6 +395,7 @@ blockquote p::after {
 .accordion-button:focus {
   box-shadow: none !important;
 }
+
 .accordion-button:active {
   outline: none !important;
   background-color: #d3d3d3;
